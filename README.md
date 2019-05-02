@@ -1,4 +1,4 @@
-# turkiye-il-seeds
+# Laravel Türkiye İl, İlçe, Semt, Mahalle Model, Migrate, Seeder
 Türkiye'de ki tüm illerin migrate, model ve seed dosyalarını bulabilirsiniz.
 
 <h1>Nasıl Kullanılır?</h1>
