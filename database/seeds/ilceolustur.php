@@ -14,7 +14,7 @@ class ilceolustur extends Seeder
     {
         DB::table('lara_ilce')->truncate();
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>1,
             'il_id'=>1,
             'ilce_ad'=>'Aladağ(Karsantı)'
@@ -22,7 +22,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>2,
             'il_id'=>1,
             'ilce_ad'=>'Ceyhan'
@@ -30,7 +30,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>3,
             'il_id'=>1,
             'ilce_ad'=>'Çukurova'
@@ -38,7 +38,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>4,
             'il_id'=>1,
             'ilce_ad'=>'Feke'
@@ -46,7 +46,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>5,
             'il_id'=>1,
             'ilce_ad'=>'İmamoğlu'
@@ -54,7 +54,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>6,
             'il_id'=>1,
             'ilce_ad'=>'Karaisalı'
@@ -62,7 +62,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>7,
             'il_id'=>1,
             'ilce_ad'=>'Karataş'
@@ -70,7 +70,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>8,
             'il_id'=>1,
             'ilce_ad'=>'Kozan'
@@ -78,7 +78,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>9,
             'il_id'=>1,
             'ilce_ad'=>'Pozantı'
@@ -86,7 +86,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>10,
             'il_id'=>1,
             'ilce_ad'=>'Saimbeyli'
@@ -94,7 +94,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>11,
             'il_id'=>1,
             'ilce_ad'=>'Sarıçam'
@@ -102,7 +102,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>12,
             'il_id'=>1,
             'ilce_ad'=>'SEYHAN'
@@ -110,7 +110,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>13,
             'il_id'=>1,
             'ilce_ad'=>'Tufanbeyli'
@@ -118,7 +118,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>14,
             'il_id'=>1,
             'ilce_ad'=>'Yumurtalık'
@@ -126,7 +126,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>15,
             'il_id'=>1,
             'ilce_ad'=>'Yüreğir'
@@ -134,7 +134,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>16,
             'il_id'=>2,
             'ilce_ad'=>'ADIYAMAN'
@@ -142,7 +142,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>17,
             'il_id'=>2,
             'ilce_ad'=>'Besni'
@@ -150,7 +150,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>18,
             'il_id'=>2,
             'ilce_ad'=>'Çelikhan'
@@ -158,7 +158,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>19,
             'il_id'=>2,
             'ilce_ad'=>'Gerger'
@@ -166,7 +166,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>20,
             'il_id'=>2,
             'ilce_ad'=>'Gölbaşı'
@@ -174,7 +174,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>21,
             'il_id'=>2,
             'ilce_ad'=>'Kahta'
@@ -182,7 +182,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>22,
             'il_id'=>2,
             'ilce_ad'=>'Samsat'
@@ -190,7 +190,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>23,
             'il_id'=>2,
             'ilce_ad'=>'Sincik'
@@ -198,7 +198,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>24,
             'il_id'=>2,
             'ilce_ad'=>'Tut'
@@ -206,7 +206,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>25,
             'il_id'=>3,
             'ilce_ad'=>'AFYONKARAHİSAR'
@@ -214,7 +214,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>26,
             'il_id'=>3,
             'ilce_ad'=>'Başmakçı'
@@ -222,7 +222,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>27,
             'il_id'=>3,
             'ilce_ad'=>'Bayat'
@@ -230,7 +230,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>28,
             'il_id'=>3,
             'ilce_ad'=>'Bolvadin'
@@ -238,7 +238,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>29,
             'il_id'=>3,
             'ilce_ad'=>'Çay'
@@ -246,7 +246,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>30,
             'il_id'=>3,
             'ilce_ad'=>'Çobanlar'
@@ -254,7 +254,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>31,
             'il_id'=>3,
             'ilce_ad'=>'Dazkırı'
@@ -262,7 +262,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>32,
             'il_id'=>3,
             'ilce_ad'=>'Dinar'
@@ -270,7 +270,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>33,
             'il_id'=>3,
             'ilce_ad'=>'Emirdağ'
@@ -278,7 +278,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>34,
             'il_id'=>3,
             'ilce_ad'=>'Evciler'
@@ -286,7 +286,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>35,
             'il_id'=>3,
             'ilce_ad'=>'Hocalar'
@@ -294,7 +294,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>36,
             'il_id'=>3,
             'ilce_ad'=>'İhsaniye'
@@ -302,7 +302,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>37,
             'il_id'=>3,
             'ilce_ad'=>'İscehisar'
@@ -310,7 +310,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>38,
             'il_id'=>3,
             'ilce_ad'=>'Kızılören'
@@ -318,7 +318,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>39,
             'il_id'=>3,
             'ilce_ad'=>'Sandıklı'
@@ -326,7 +326,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>40,
             'il_id'=>3,
             'ilce_ad'=>'Sincanlı(Sinanpaşa)'
@@ -334,7 +334,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>41,
             'il_id'=>3,
             'ilce_ad'=>'Sultandağı'
@@ -342,7 +342,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>42,
             'il_id'=>3,
             'ilce_ad'=>'Şuhut'
@@ -350,7 +350,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>43,
             'il_id'=>4,
             'ilce_ad'=>'Ağrı'
@@ -358,7 +358,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>44,
             'il_id'=>4,
             'ilce_ad'=>'Diyadin'
@@ -366,7 +366,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>45,
             'il_id'=>4,
             'ilce_ad'=>'Doğubeyazıt'
@@ -374,7 +374,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>46,
             'il_id'=>4,
             'ilce_ad'=>'Eleşkirt'
@@ -382,7 +382,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>47,
             'il_id'=>4,
             'ilce_ad'=>'Hamur'
@@ -390,7 +390,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>48,
             'il_id'=>4,
             'ilce_ad'=>'Patnos'
@@ -398,7 +398,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>49,
             'il_id'=>4,
             'ilce_ad'=>'Taşlıçay'
@@ -406,7 +406,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>50,
             'il_id'=>4,
             'ilce_ad'=>'Tutak'
@@ -414,7 +414,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>51,
             'il_id'=>5,
             'ilce_ad'=>'Amasya'
@@ -422,7 +422,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>52,
             'il_id'=>5,
             'ilce_ad'=>'Göynücek'
@@ -430,7 +430,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>53,
             'il_id'=>5,
             'ilce_ad'=>'Gümüşhacıköy'
@@ -438,7 +438,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>54,
             'il_id'=>5,
             'ilce_ad'=>'Hamamözü'
@@ -446,7 +446,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>55,
             'il_id'=>5,
             'ilce_ad'=>'Merzifon'
@@ -454,7 +454,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>56,
             'il_id'=>5,
             'ilce_ad'=>'Suluova'
@@ -462,7 +462,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>57,
             'il_id'=>5,
             'ilce_ad'=>'Taşova'
@@ -470,7 +470,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>58,
             'il_id'=>6,
             'ilce_ad'=>'Akyurt'
@@ -478,7 +478,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>59,
             'il_id'=>6,
             'ilce_ad'=>'Altındağ'
@@ -486,7 +486,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>60,
             'il_id'=>6,
             'ilce_ad'=>'Ayaş'
@@ -494,7 +494,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>61,
             'il_id'=>6,
             'ilce_ad'=>'Bala'
@@ -502,7 +502,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>62,
             'il_id'=>6,
             'ilce_ad'=>'Beypazarı'
@@ -510,7 +510,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>63,
             'il_id'=>6,
             'ilce_ad'=>'Çamlıdere'
@@ -518,7 +518,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>64,
             'il_id'=>6,
             'ilce_ad'=>'ÇANKAYA'
@@ -526,7 +526,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>65,
             'il_id'=>6,
             'ilce_ad'=>'Çubuk'
@@ -534,7 +534,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>66,
             'il_id'=>6,
             'ilce_ad'=>'Elmadağ'
@@ -542,7 +542,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>67,
             'il_id'=>6,
             'ilce_ad'=>'ETİMESGUT'
@@ -550,7 +550,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>68,
             'il_id'=>6,
             'ilce_ad'=>'Evren'
@@ -558,7 +558,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>69,
             'il_id'=>6,
             'ilce_ad'=>'GÖLBAŞI'
@@ -566,7 +566,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>70,
             'il_id'=>6,
             'ilce_ad'=>'Güdül'
@@ -574,7 +574,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>71,
             'il_id'=>6,
             'ilce_ad'=>'Haymana'
@@ -582,7 +582,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>72,
             'il_id'=>6,
             'ilce_ad'=>'Kalecik'
@@ -590,7 +590,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>73,
             'il_id'=>6,
             'ilce_ad'=>'Kazan'
@@ -598,7 +598,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>74,
             'il_id'=>6,
             'ilce_ad'=>'KEÇİÖREN'
@@ -606,7 +606,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>75,
             'il_id'=>6,
             'ilce_ad'=>'Kızılcahamam'
@@ -614,7 +614,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>76,
             'il_id'=>6,
             'ilce_ad'=>'MAMAK'
@@ -622,7 +622,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>77,
             'il_id'=>6,
             'ilce_ad'=>'Nallıhan'
@@ -630,7 +630,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>78,
             'il_id'=>6,
             'ilce_ad'=>'Polatlı'
@@ -638,7 +638,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>79,
             'il_id'=>6,
             'ilce_ad'=>'PURSAKLAR'
@@ -646,7 +646,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>80,
             'il_id'=>6,
             'ilce_ad'=>'SİNCAN'
@@ -654,7 +654,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>81,
             'il_id'=>6,
             'ilce_ad'=>'Şereflikoçhisar'
@@ -662,7 +662,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>82,
             'il_id'=>6,
             'ilce_ad'=>'YENİMAHALLE'
@@ -670,7 +670,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>83,
             'il_id'=>7,
             'ilce_ad'=>'Akseki'
@@ -678,7 +678,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>84,
             'il_id'=>7,
             'ilce_ad'=>'Aksu'
@@ -686,7 +686,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>85,
             'il_id'=>7,
             'ilce_ad'=>'Alanya'
@@ -694,7 +694,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>86,
             'il_id'=>7,
             'ilce_ad'=>'DÖŞEMEALTI'
@@ -702,7 +702,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>87,
             'il_id'=>7,
             'ilce_ad'=>'Elmalı'
@@ -710,7 +710,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>88,
             'il_id'=>7,
             'ilce_ad'=>'Finike'
@@ -718,7 +718,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>89,
             'il_id'=>7,
             'ilce_ad'=>'Gazipaşa'
@@ -726,7 +726,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>90,
             'il_id'=>7,
             'ilce_ad'=>'Gündoğmuş'
@@ -734,7 +734,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>91,
             'il_id'=>7,
             'ilce_ad'=>'İbradı(Aydınkent)'
@@ -742,7 +742,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>92,
             'il_id'=>7,
             'ilce_ad'=>'Kale(Demre)'
@@ -750,7 +750,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>93,
             'il_id'=>7,
             'ilce_ad'=>'Kaş'
@@ -758,7 +758,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>94,
             'il_id'=>7,
             'ilce_ad'=>'Kemer'
@@ -766,7 +766,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>95,
             'il_id'=>7,
             'ilce_ad'=>'KEPEZ'
@@ -774,7 +774,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>96,
             'il_id'=>7,
             'ilce_ad'=>'KONYAALTI'
@@ -782,7 +782,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>97,
             'il_id'=>7,
             'ilce_ad'=>'Korkuteli'
@@ -790,7 +790,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>98,
             'il_id'=>7,
             'ilce_ad'=>'Kumluca'
@@ -798,7 +798,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>99,
             'il_id'=>7,
             'ilce_ad'=>'Manavgat'
@@ -806,7 +806,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>100,
             'il_id'=>7,
             'ilce_ad'=>'Muratpaşa'
@@ -814,7 +814,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>101,
             'il_id'=>7,
             'ilce_ad'=>'Serik'
@@ -822,7 +822,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>102,
             'il_id'=>8,
             'ilce_ad'=>'Ardanuç'
@@ -830,7 +830,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>103,
             'il_id'=>8,
             'ilce_ad'=>'Arhavi'
@@ -838,7 +838,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>104,
             'il_id'=>8,
             'ilce_ad'=>'Artvin'
@@ -846,7 +846,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>105,
             'il_id'=>8,
             'ilce_ad'=>'Borçka'
@@ -854,7 +854,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>106,
             'il_id'=>8,
             'ilce_ad'=>'Hopa'
@@ -862,7 +862,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>107,
             'il_id'=>8,
             'ilce_ad'=>'Murgul(Göktaş)'
@@ -870,7 +870,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>108,
             'il_id'=>8,
             'ilce_ad'=>'Şavşat'
@@ -878,7 +878,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>109,
             'il_id'=>8,
             'ilce_ad'=>'Yusufeli'
@@ -886,7 +886,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>110,
             'il_id'=>9,
             'ilce_ad'=>'Aydın'
@@ -894,7 +894,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>111,
             'il_id'=>9,
             'ilce_ad'=>'Bozdoğan'
@@ -902,7 +902,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>112,
             'il_id'=>9,
             'ilce_ad'=>'Buharkent(Çubukdağı)'
@@ -910,7 +910,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>113,
             'il_id'=>9,
             'ilce_ad'=>'Çine'
@@ -918,7 +918,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>114,
             'il_id'=>9,
             'ilce_ad'=>'Didim(Yenihisar)'
@@ -926,7 +926,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>115,
             'il_id'=>9,
             'ilce_ad'=>'Germencik'
@@ -934,7 +934,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>116,
             'il_id'=>9,
             'ilce_ad'=>'İncirliova'
@@ -942,7 +942,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>117,
             'il_id'=>9,
             'ilce_ad'=>'Karacasu'
@@ -950,7 +950,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>118,
             'il_id'=>9,
             'ilce_ad'=>'Karpuzlu'
@@ -958,7 +958,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>119,
             'il_id'=>9,
             'ilce_ad'=>'Koçarlı'
@@ -966,7 +966,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>120,
             'il_id'=>9,
             'ilce_ad'=>'Köşk'
@@ -974,7 +974,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>121,
             'il_id'=>9,
             'ilce_ad'=>'Kuşadası'
@@ -982,7 +982,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>122,
             'il_id'=>9,
             'ilce_ad'=>'Kuyucak'
@@ -990,7 +990,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>123,
             'il_id'=>9,
             'ilce_ad'=>'NAZİLLİ'
@@ -998,7 +998,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>124,
             'il_id'=>9,
             'ilce_ad'=>'Söke'
@@ -1006,7 +1006,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>125,
             'il_id'=>9,
             'ilce_ad'=>'Sultanhisar'
@@ -1014,7 +1014,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>126,
             'il_id'=>9,
             'ilce_ad'=>'Yenipazar'
@@ -1022,7 +1022,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>127,
             'il_id'=>10,
             'ilce_ad'=>'Ayvalık'
@@ -1030,7 +1030,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>128,
             'il_id'=>10,
             'ilce_ad'=>'Balıkesir'
@@ -1038,7 +1038,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>129,
             'il_id'=>10,
             'ilce_ad'=>'Balya'
@@ -1046,7 +1046,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>130,
             'il_id'=>10,
             'ilce_ad'=>'Bandırma'
@@ -1054,7 +1054,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>131,
             'il_id'=>10,
             'ilce_ad'=>'Bigadiç'
@@ -1062,7 +1062,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>132,
             'il_id'=>10,
             'ilce_ad'=>'Burhaniye'
@@ -1070,7 +1070,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>133,
             'il_id'=>10,
             'ilce_ad'=>'Dursunbey'
@@ -1078,7 +1078,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>134,
             'il_id'=>10,
             'ilce_ad'=>'Edremit'
@@ -1086,7 +1086,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>135,
             'il_id'=>10,
             'ilce_ad'=>'Erdek'
@@ -1094,7 +1094,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>136,
             'il_id'=>10,
             'ilce_ad'=>'Gömeç'
@@ -1102,7 +1102,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>137,
             'il_id'=>10,
             'ilce_ad'=>'Gönen'
@@ -1110,7 +1110,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>138,
             'il_id'=>10,
             'ilce_ad'=>'Havran'
@@ -1118,7 +1118,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>139,
             'il_id'=>10,
             'ilce_ad'=>'İvrindi'
@@ -1126,7 +1126,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>140,
             'il_id'=>10,
             'ilce_ad'=>'Kepsut'
@@ -1134,7 +1134,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>141,
             'il_id'=>10,
             'ilce_ad'=>'Manyas'
@@ -1142,7 +1142,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>142,
             'il_id'=>10,
             'ilce_ad'=>'Marmara'
@@ -1150,7 +1150,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>143,
             'il_id'=>10,
             'ilce_ad'=>'Savaştepe'
@@ -1158,7 +1158,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>144,
             'il_id'=>10,
             'ilce_ad'=>'Sındırgı'
@@ -1166,7 +1166,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>145,
             'il_id'=>10,
             'ilce_ad'=>'Susurluk'
@@ -1174,7 +1174,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>146,
             'il_id'=>11,
             'ilce_ad'=>'Bilecik'
@@ -1182,7 +1182,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>147,
             'il_id'=>11,
             'ilce_ad'=>'Bozüyük'
@@ -1190,7 +1190,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>148,
             'il_id'=>11,
             'ilce_ad'=>'Gölpazarı'
@@ -1198,7 +1198,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>149,
             'il_id'=>11,
             'ilce_ad'=>'İnhisar'
@@ -1206,7 +1206,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>150,
             'il_id'=>11,
             'ilce_ad'=>'Osmaneli'
@@ -1214,7 +1214,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>151,
             'il_id'=>11,
             'ilce_ad'=>'Pazaryeri'
@@ -1222,7 +1222,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>152,
             'il_id'=>11,
             'ilce_ad'=>'Söğüt'
@@ -1230,7 +1230,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>153,
             'il_id'=>11,
             'ilce_ad'=>'Yenipazar'
@@ -1238,7 +1238,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>154,
             'il_id'=>12,
             'ilce_ad'=>'Adaklı'
@@ -1246,7 +1246,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>155,
             'il_id'=>12,
             'ilce_ad'=>'Bingöl'
@@ -1254,7 +1254,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>156,
             'il_id'=>12,
             'ilce_ad'=>'Genç'
@@ -1262,7 +1262,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>157,
             'il_id'=>12,
             'ilce_ad'=>'Karlıova'
@@ -1270,7 +1270,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>158,
             'il_id'=>12,
             'ilce_ad'=>'Kığı'
@@ -1278,7 +1278,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>159,
             'il_id'=>12,
             'ilce_ad'=>'Solhan'
@@ -1286,7 +1286,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>160,
             'il_id'=>12,
             'ilce_ad'=>'Yayladere'
@@ -1294,7 +1294,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>161,
             'il_id'=>12,
             'ilce_ad'=>'Yedisu'
@@ -1302,7 +1302,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>162,
             'il_id'=>13,
             'ilce_ad'=>'Adilcevaz'
@@ -1310,7 +1310,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>163,
             'il_id'=>13,
             'ilce_ad'=>'Ahlat'
@@ -1318,7 +1318,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>164,
             'il_id'=>13,
             'ilce_ad'=>'Bitlis'
@@ -1326,7 +1326,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>165,
             'il_id'=>13,
             'ilce_ad'=>'Güroymak'
@@ -1334,7 +1334,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>166,
             'il_id'=>13,
             'ilce_ad'=>'Hizan'
@@ -1342,7 +1342,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>167,
             'il_id'=>13,
             'ilce_ad'=>'Mutki'
@@ -1350,7 +1350,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>168,
             'il_id'=>13,
             'ilce_ad'=>'Tatvan'
@@ -1358,7 +1358,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>169,
             'il_id'=>14,
             'ilce_ad'=>'BOLU'
@@ -1366,7 +1366,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>170,
             'il_id'=>14,
             'ilce_ad'=>'Dörtdivan'
@@ -1374,7 +1374,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>171,
             'il_id'=>14,
             'ilce_ad'=>'Gerede'
@@ -1382,7 +1382,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>172,
             'il_id'=>14,
             'ilce_ad'=>'Göynük'
@@ -1390,7 +1390,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>173,
             'il_id'=>14,
             'ilce_ad'=>'Kıbrıscık'
@@ -1398,7 +1398,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>174,
             'il_id'=>14,
             'ilce_ad'=>'Mengen'
@@ -1406,7 +1406,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>175,
             'il_id'=>14,
             'ilce_ad'=>'Mudurnu'
@@ -1414,7 +1414,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>176,
             'il_id'=>14,
             'ilce_ad'=>'Seben'
@@ -1422,7 +1422,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>177,
             'il_id'=>14,
             'ilce_ad'=>'Yeniçağa'
@@ -1430,7 +1430,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>178,
             'il_id'=>15,
             'ilce_ad'=>'Ağlasun'
@@ -1438,7 +1438,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>179,
             'il_id'=>15,
             'ilce_ad'=>'Altınyayla(Dirmil)'
@@ -1446,7 +1446,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>180,
             'il_id'=>15,
             'ilce_ad'=>'Bucak'
@@ -1454,7 +1454,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>181,
             'il_id'=>15,
             'ilce_ad'=>'BURDUR'
@@ -1462,7 +1462,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>182,
             'il_id'=>15,
             'ilce_ad'=>'Çavdır'
@@ -1470,7 +1470,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>183,
             'il_id'=>15,
             'ilce_ad'=>'Çeltikçi'
@@ -1478,7 +1478,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>184,
             'il_id'=>15,
             'ilce_ad'=>'Gölhisar'
@@ -1486,7 +1486,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>185,
             'il_id'=>15,
             'ilce_ad'=>'Karamanlı'
@@ -1494,7 +1494,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>186,
             'il_id'=>15,
             'ilce_ad'=>'Kemer'
@@ -1502,7 +1502,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>187,
             'il_id'=>15,
             'ilce_ad'=>'Tefenni'
@@ -1510,7 +1510,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>188,
             'il_id'=>15,
             'ilce_ad'=>'Yeşilova'
@@ -1518,7 +1518,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>189,
             'il_id'=>16,
             'ilce_ad'=>'Büyükorhan'
@@ -1526,7 +1526,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>190,
             'il_id'=>16,
             'ilce_ad'=>'Gemlik'
@@ -1534,7 +1534,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>191,
             'il_id'=>16,
             'ilce_ad'=>'Gürsu'
@@ -1542,7 +1542,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>192,
             'il_id'=>16,
             'ilce_ad'=>'Harmancık'
@@ -1550,7 +1550,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>193,
             'il_id'=>16,
             'ilce_ad'=>'İnegöl'
@@ -1558,7 +1558,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>194,
             'il_id'=>16,
             'ilce_ad'=>'İznik'
@@ -1566,7 +1566,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>195,
             'il_id'=>16,
             'ilce_ad'=>'Karacabey'
@@ -1574,7 +1574,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>196,
             'il_id'=>16,
             'ilce_ad'=>'Keles'
@@ -1582,7 +1582,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>197,
             'il_id'=>16,
             'ilce_ad'=>'Kestel'
@@ -1590,7 +1590,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>198,
             'il_id'=>16,
             'ilce_ad'=>'MUDANYA'
@@ -1598,7 +1598,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>199,
             'il_id'=>16,
             'ilce_ad'=>'Mustafakemalpaşa'
@@ -1606,7 +1606,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>200,
             'il_id'=>16,
             'ilce_ad'=>'Nilüfer'
@@ -1614,7 +1614,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>201,
             'il_id'=>16,
             'ilce_ad'=>'Orhaneli'
@@ -1622,7 +1622,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>202,
             'il_id'=>16,
             'ilce_ad'=>'Orhangazi'
@@ -1630,7 +1630,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>203,
             'il_id'=>16,
             'ilce_ad'=>'OSMANGAZİ'
@@ -1638,7 +1638,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>204,
             'il_id'=>16,
             'ilce_ad'=>'Yenişehir'
@@ -1646,7 +1646,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>205,
             'il_id'=>16,
             'ilce_ad'=>'YILDIRIM'
@@ -1654,7 +1654,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>206,
             'il_id'=>17,
             'ilce_ad'=>'Ayvacık'
@@ -1662,7 +1662,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>207,
             'il_id'=>17,
             'ilce_ad'=>'Bayramiç'
@@ -1670,7 +1670,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>208,
             'il_id'=>17,
             'ilce_ad'=>'Biga'
@@ -1678,7 +1678,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>209,
             'il_id'=>17,
             'ilce_ad'=>'Bozcaada'
@@ -1686,7 +1686,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>210,
             'il_id'=>17,
             'ilce_ad'=>'Çan'
@@ -1694,7 +1694,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>211,
             'il_id'=>17,
             'ilce_ad'=>'Çanakkale'
@@ -1702,7 +1702,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>212,
             'il_id'=>17,
             'ilce_ad'=>'Eceabat'
@@ -1710,7 +1710,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>213,
             'il_id'=>17,
             'ilce_ad'=>'Ezine'
@@ -1718,7 +1718,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>214,
             'il_id'=>17,
             'ilce_ad'=>'Gelibolu'
@@ -1726,7 +1726,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>215,
             'il_id'=>17,
             'ilce_ad'=>'Gökçeada(İmroz)'
@@ -1734,7 +1734,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>216,
             'il_id'=>17,
             'ilce_ad'=>'Lapseki'
@@ -1742,7 +1742,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>217,
             'il_id'=>17,
             'ilce_ad'=>'Yenice'
@@ -1750,7 +1750,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>218,
             'il_id'=>18,
             'ilce_ad'=>'Atkaracalar'
@@ -1758,7 +1758,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>219,
             'il_id'=>18,
             'ilce_ad'=>'Bayramören'
@@ -1766,7 +1766,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>220,
             'il_id'=>18,
             'ilce_ad'=>'Çankırı'
@@ -1774,7 +1774,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>221,
             'il_id'=>18,
             'ilce_ad'=>'Çerkeş'
@@ -1782,7 +1782,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>222,
             'il_id'=>18,
             'ilce_ad'=>'Eldivan'
@@ -1790,7 +1790,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>223,
             'il_id'=>18,
             'ilce_ad'=>'Ilgaz'
@@ -1798,7 +1798,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>224,
             'il_id'=>18,
             'ilce_ad'=>'Kızılırmak'
@@ -1806,7 +1806,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>225,
             'il_id'=>18,
             'ilce_ad'=>'Korgun'
@@ -1814,7 +1814,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>226,
             'il_id'=>18,
             'ilce_ad'=>'Kurşunlu'
@@ -1822,7 +1822,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>227,
             'il_id'=>18,
             'ilce_ad'=>'Orta'
@@ -1830,7 +1830,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>228,
             'il_id'=>18,
             'ilce_ad'=>'Şabanözü'
@@ -1838,7 +1838,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>229,
             'il_id'=>18,
             'ilce_ad'=>'Yapraklı'
@@ -1846,7 +1846,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>230,
             'il_id'=>19,
             'ilce_ad'=>'Alaca'
@@ -1854,7 +1854,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>231,
             'il_id'=>19,
             'ilce_ad'=>'Bayat'
@@ -1862,7 +1862,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>232,
             'il_id'=>19,
             'ilce_ad'=>'Boğazkale'
@@ -1870,7 +1870,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>233,
             'il_id'=>19,
             'ilce_ad'=>'Çorum'
@@ -1878,7 +1878,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>234,
             'il_id'=>19,
             'ilce_ad'=>'Dodurga'
@@ -1886,7 +1886,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>235,
             'il_id'=>19,
             'ilce_ad'=>'İskilip'
@@ -1894,7 +1894,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>236,
             'il_id'=>19,
             'ilce_ad'=>'Kargı'
@@ -1902,7 +1902,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>237,
             'il_id'=>19,
             'ilce_ad'=>'Laçin'
@@ -1910,7 +1910,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>238,
             'il_id'=>19,
             'ilce_ad'=>'Mecitözü'
@@ -1918,7 +1918,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>239,
             'il_id'=>19,
             'ilce_ad'=>'Oğuzlar(Karaören)'
@@ -1926,7 +1926,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>240,
             'il_id'=>19,
             'ilce_ad'=>'Ortaköy'
@@ -1934,7 +1934,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>241,
             'il_id'=>19,
             'ilce_ad'=>'Osmancık'
@@ -1942,7 +1942,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>242,
             'il_id'=>19,
             'ilce_ad'=>'Sungurlu'
@@ -1950,7 +1950,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>243,
             'il_id'=>19,
             'ilce_ad'=>'Uğurludağ'
@@ -1958,7 +1958,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>244,
             'il_id'=>20,
             'ilce_ad'=>'Acıpayam'
@@ -1966,7 +1966,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>245,
             'il_id'=>20,
             'ilce_ad'=>'PAMUKKALE'
@@ -1974,7 +1974,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>246,
             'il_id'=>20,
             'ilce_ad'=>'Babadağ'
@@ -1982,7 +1982,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>247,
             'il_id'=>20,
             'ilce_ad'=>'Baklan'
@@ -1990,7 +1990,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>248,
             'il_id'=>20,
             'ilce_ad'=>'Bekilli'
@@ -1998,7 +1998,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>249,
             'il_id'=>20,
             'ilce_ad'=>'Beyağaç'
@@ -2006,7 +2006,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>250,
             'il_id'=>20,
             'ilce_ad'=>'Bozkurt'
@@ -2014,7 +2014,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>251,
             'il_id'=>20,
             'ilce_ad'=>'Buldan'
@@ -2022,7 +2022,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>252,
             'il_id'=>20,
             'ilce_ad'=>'Çal'
@@ -2030,7 +2030,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>253,
             'il_id'=>20,
             'ilce_ad'=>'Çameli'
@@ -2038,7 +2038,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>254,
             'il_id'=>20,
             'ilce_ad'=>'Çardak'
@@ -2046,7 +2046,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>255,
             'il_id'=>20,
             'ilce_ad'=>'Çivril'
@@ -2054,7 +2054,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>256,
             'il_id'=>20,
             'ilce_ad'=>'Denizli'
@@ -2062,7 +2062,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>257,
             'il_id'=>20,
             'ilce_ad'=>'Güney'
@@ -2070,7 +2070,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>258,
             'il_id'=>20,
             'ilce_ad'=>'Honaz'
@@ -2078,7 +2078,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>259,
             'il_id'=>20,
             'ilce_ad'=>'Kale'
@@ -2086,7 +2086,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>260,
             'il_id'=>20,
             'ilce_ad'=>'Sarayköy'
@@ -2094,7 +2094,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>261,
             'il_id'=>20,
             'ilce_ad'=>'Serinhisar'
@@ -2102,7 +2102,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>262,
             'il_id'=>20,
             'ilce_ad'=>'Tavas'
@@ -2110,7 +2110,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>263,
             'il_id'=>21,
             'ilce_ad'=>'Bağlar'
@@ -2118,7 +2118,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>264,
             'il_id'=>21,
             'ilce_ad'=>'Bismil'
@@ -2126,7 +2126,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>265,
             'il_id'=>21,
             'ilce_ad'=>'Çermik'
@@ -2134,7 +2134,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>266,
             'il_id'=>21,
             'ilce_ad'=>'Çınar'
@@ -2142,7 +2142,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>267,
             'il_id'=>21,
             'ilce_ad'=>'Çüngüş'
@@ -2150,7 +2150,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>268,
             'il_id'=>21,
             'ilce_ad'=>'Dicle'
@@ -2158,7 +2158,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>269,
             'il_id'=>21,
             'ilce_ad'=>'Eğil'
@@ -2166,7 +2166,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>270,
             'il_id'=>21,
             'ilce_ad'=>'Ergani'
@@ -2174,7 +2174,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>271,
             'il_id'=>21,
             'ilce_ad'=>'Hani'
@@ -2182,7 +2182,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>272,
             'il_id'=>21,
             'ilce_ad'=>'Hazro'
@@ -2190,7 +2190,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>273,
             'il_id'=>21,
             'ilce_ad'=>'Kayapınar'
@@ -2198,7 +2198,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>274,
             'il_id'=>21,
             'ilce_ad'=>'Kocaköy'
@@ -2206,7 +2206,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>275,
             'il_id'=>21,
             'ilce_ad'=>'Kulp'
@@ -2214,7 +2214,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>276,
             'il_id'=>21,
             'ilce_ad'=>'Lice'
@@ -2222,7 +2222,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>277,
             'il_id'=>21,
             'ilce_ad'=>'Silvan'
@@ -2230,7 +2230,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>278,
             'il_id'=>21,
             'ilce_ad'=>'Sur'
@@ -2238,7 +2238,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>279,
             'il_id'=>21,
             'ilce_ad'=>'Yenişehir'
@@ -2246,7 +2246,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>280,
             'il_id'=>22,
             'ilce_ad'=>'Edirne'
@@ -2254,7 +2254,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>281,
             'il_id'=>22,
             'ilce_ad'=>'Enez'
@@ -2262,7 +2262,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>282,
             'il_id'=>22,
             'ilce_ad'=>'Havsa'
@@ -2270,7 +2270,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>283,
             'il_id'=>22,
             'ilce_ad'=>'İpsala'
@@ -2278,7 +2278,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>284,
             'il_id'=>22,
             'ilce_ad'=>'Keşan'
@@ -2286,7 +2286,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>285,
             'il_id'=>22,
             'ilce_ad'=>'Lalapaşa'
@@ -2294,7 +2294,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>286,
             'il_id'=>22,
             'ilce_ad'=>'Meriç'
@@ -2302,7 +2302,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>287,
             'il_id'=>22,
             'ilce_ad'=>'Süleoğlu(Süloğlu)'
@@ -2310,7 +2310,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>288,
             'il_id'=>22,
             'ilce_ad'=>'Uzunköprü'
@@ -2318,7 +2318,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>289,
             'il_id'=>23,
             'ilce_ad'=>'Ağın'
@@ -2326,7 +2326,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>290,
             'il_id'=>23,
             'ilce_ad'=>'Alacakaya'
@@ -2334,7 +2334,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>291,
             'il_id'=>23,
             'ilce_ad'=>'Arıcak'
@@ -2342,7 +2342,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>292,
             'il_id'=>23,
             'ilce_ad'=>'Baskil'
@@ -2350,7 +2350,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>293,
             'il_id'=>23,
             'ilce_ad'=>'ELAZIĞ'
@@ -2358,7 +2358,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>294,
             'il_id'=>23,
             'ilce_ad'=>'Karakoçan'
@@ -2366,7 +2366,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>295,
             'il_id'=>23,
             'ilce_ad'=>'Keban'
@@ -2374,7 +2374,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>296,
             'il_id'=>23,
             'ilce_ad'=>'Kovancılar'
@@ -2382,7 +2382,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>297,
             'il_id'=>23,
             'ilce_ad'=>'Maden'
@@ -2390,7 +2390,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>298,
             'il_id'=>23,
             'ilce_ad'=>'Palu'
@@ -2398,7 +2398,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>299,
             'il_id'=>23,
             'ilce_ad'=>'Sivrice'
@@ -2406,7 +2406,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>300,
             'il_id'=>24,
             'ilce_ad'=>'Çayırlı'
@@ -2414,7 +2414,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>301,
             'il_id'=>24,
             'ilce_ad'=>'Erzincan'
@@ -2422,7 +2422,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>302,
             'il_id'=>24,
             'ilce_ad'=>'İliç(Ilıç)'
@@ -2430,7 +2430,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>303,
             'il_id'=>24,
             'ilce_ad'=>'Kemah'
@@ -2438,7 +2438,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>304,
             'il_id'=>24,
             'ilce_ad'=>'Kemaliye'
@@ -2446,7 +2446,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>305,
             'il_id'=>24,
             'ilce_ad'=>'Otlukbeli'
@@ -2454,7 +2454,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>306,
             'il_id'=>24,
             'ilce_ad'=>'Refahiye'
@@ -2462,7 +2462,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>307,
             'il_id'=>24,
             'ilce_ad'=>'Tercan'
@@ -2470,7 +2470,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>308,
             'il_id'=>24,
             'ilce_ad'=>'Üzümlü'
@@ -2478,7 +2478,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>309,
             'il_id'=>25,
             'ilce_ad'=>'Aşkale'
@@ -2486,7 +2486,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>310,
             'il_id'=>25,
             'ilce_ad'=>'Aziziye(Ilıca)'
@@ -2494,7 +2494,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>311,
             'il_id'=>25,
             'ilce_ad'=>'Çat'
@@ -2502,7 +2502,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>312,
             'il_id'=>25,
             'ilce_ad'=>'Hınıs'
@@ -2510,7 +2510,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>313,
             'il_id'=>25,
             'ilce_ad'=>'Horasan'
@@ -2518,7 +2518,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>314,
             'il_id'=>25,
             'ilce_ad'=>'İspir'
@@ -2526,7 +2526,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>315,
             'il_id'=>25,
             'ilce_ad'=>'Karaçoban'
@@ -2534,7 +2534,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>316,
             'il_id'=>25,
             'ilce_ad'=>'Karayazı'
@@ -2542,7 +2542,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>317,
             'il_id'=>25,
             'ilce_ad'=>'Köprüköy'
@@ -2550,7 +2550,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>318,
             'il_id'=>25,
             'ilce_ad'=>'Narman'
@@ -2558,7 +2558,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>319,
             'il_id'=>25,
             'ilce_ad'=>'Oltu'
@@ -2566,7 +2566,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>320,
             'il_id'=>25,
             'ilce_ad'=>'Olur'
@@ -2574,7 +2574,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>321,
             'il_id'=>25,
             'ilce_ad'=>'Palandöken'
@@ -2582,7 +2582,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>322,
             'il_id'=>25,
             'ilce_ad'=>'Pasinler'
@@ -2590,7 +2590,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>323,
             'il_id'=>25,
             'ilce_ad'=>'Pazaryolu'
@@ -2598,7 +2598,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>324,
             'il_id'=>25,
             'ilce_ad'=>'Şenkaya'
@@ -2606,7 +2606,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>325,
             'il_id'=>25,
             'ilce_ad'=>'Tekman'
@@ -2614,7 +2614,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>326,
             'il_id'=>25,
             'ilce_ad'=>'Tortum'
@@ -2622,7 +2622,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>327,
             'il_id'=>25,
             'ilce_ad'=>'Uzundere'
@@ -2630,7 +2630,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>328,
             'il_id'=>25,
             'ilce_ad'=>'Yakutiye'
@@ -2638,7 +2638,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>329,
             'il_id'=>26,
             'ilce_ad'=>'Alpu'
@@ -2646,7 +2646,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>330,
             'il_id'=>26,
             'ilce_ad'=>'Beylikova'
@@ -2654,7 +2654,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>331,
             'il_id'=>26,
             'ilce_ad'=>'Çifteler'
@@ -2662,7 +2662,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>332,
             'il_id'=>26,
             'ilce_ad'=>'Günyüzü'
@@ -2670,7 +2670,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>333,
             'il_id'=>26,
             'ilce_ad'=>'Han'
@@ -2678,7 +2678,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>334,
             'il_id'=>26,
             'ilce_ad'=>'İnönü'
@@ -2686,7 +2686,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>335,
             'il_id'=>26,
             'ilce_ad'=>'Mahmudiye'
@@ -2694,7 +2694,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>336,
             'il_id'=>26,
             'ilce_ad'=>'Mihalgazi'
@@ -2702,7 +2702,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>337,
             'il_id'=>26,
             'ilce_ad'=>'Mihalıçcık'
@@ -2710,7 +2710,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>338,
             'il_id'=>26,
             'ilce_ad'=>'ODUNPAZARI'
@@ -2718,7 +2718,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>339,
             'il_id'=>26,
             'ilce_ad'=>'Sarıcakaya'
@@ -2726,7 +2726,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>340,
             'il_id'=>26,
             'ilce_ad'=>'Seyitgazi'
@@ -2734,7 +2734,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>341,
             'il_id'=>26,
             'ilce_ad'=>'Sivrihisar'
@@ -2742,7 +2742,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>342,
             'il_id'=>26,
             'ilce_ad'=>'Tepebaşı'
@@ -2750,7 +2750,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>343,
             'il_id'=>27,
             'ilce_ad'=>'Araban'
@@ -2758,7 +2758,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>344,
             'il_id'=>27,
             'ilce_ad'=>'İslahiye'
@@ -2766,7 +2766,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>345,
             'il_id'=>27,
             'ilce_ad'=>'Karkamış'
@@ -2774,7 +2774,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>346,
             'il_id'=>27,
             'ilce_ad'=>'Nizip'
@@ -2782,7 +2782,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>347,
             'il_id'=>27,
             'ilce_ad'=>'Nurdağı'
@@ -2790,7 +2790,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>348,
             'il_id'=>27,
             'ilce_ad'=>'Oğuzeli'
@@ -2798,7 +2798,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>349,
             'il_id'=>27,
             'ilce_ad'=>'ŞAHİNBEY'
@@ -2806,7 +2806,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>350,
             'il_id'=>27,
             'ilce_ad'=>'ŞEHİTKAMİL'
@@ -2814,7 +2814,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>351,
             'il_id'=>27,
             'ilce_ad'=>'Yavuzeli'
@@ -2822,7 +2822,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>352,
             'il_id'=>28,
             'ilce_ad'=>'Alucra'
@@ -2830,7 +2830,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>353,
             'il_id'=>28,
             'ilce_ad'=>'Bulancak'
@@ -2838,7 +2838,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>354,
             'il_id'=>28,
             'ilce_ad'=>'Çamoluk'
@@ -2846,7 +2846,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>355,
             'il_id'=>28,
             'ilce_ad'=>'Çanakçı'
@@ -2854,7 +2854,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>356,
             'il_id'=>28,
             'ilce_ad'=>'Dereli'
@@ -2862,7 +2862,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>357,
             'il_id'=>28,
             'ilce_ad'=>'Doğankent'
@@ -2870,7 +2870,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>358,
             'il_id'=>28,
             'ilce_ad'=>'Espiye'
@@ -2878,7 +2878,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>359,
             'il_id'=>28,
             'ilce_ad'=>'Eynesil'
@@ -2886,7 +2886,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>360,
             'il_id'=>28,
             'ilce_ad'=>'Giresun'
@@ -2894,7 +2894,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>361,
             'il_id'=>28,
             'ilce_ad'=>'Görele'
@@ -2902,7 +2902,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>362,
             'il_id'=>28,
             'ilce_ad'=>'Güce'
@@ -2910,7 +2910,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>363,
             'il_id'=>28,
             'ilce_ad'=>'Keşap'
@@ -2918,7 +2918,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>364,
             'il_id'=>28,
             'ilce_ad'=>'Piraziz'
@@ -2926,7 +2926,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>365,
             'il_id'=>28,
             'ilce_ad'=>'Şebinkarahisar'
@@ -2934,7 +2934,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>366,
             'il_id'=>28,
             'ilce_ad'=>'Tirebolu'
@@ -2942,7 +2942,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>367,
             'il_id'=>28,
             'ilce_ad'=>'Yağlıdere'
@@ -2950,7 +2950,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>368,
             'il_id'=>29,
             'ilce_ad'=>'Gümüşhane'
@@ -2958,7 +2958,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>369,
             'il_id'=>29,
             'ilce_ad'=>'Kelkit'
@@ -2966,7 +2966,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>370,
             'il_id'=>29,
             'ilce_ad'=>'Köse'
@@ -2974,7 +2974,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>371,
             'il_id'=>29,
             'ilce_ad'=>'Kürtün'
@@ -2982,7 +2982,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>372,
             'il_id'=>29,
             'ilce_ad'=>'Şiran'
@@ -2990,7 +2990,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>373,
             'il_id'=>29,
             'ilce_ad'=>'Torul'
@@ -2998,7 +2998,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>374,
             'il_id'=>30,
             'ilce_ad'=>'Çukurca'
@@ -3006,7 +3006,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>375,
             'il_id'=>30,
             'ilce_ad'=>'Hakkari'
@@ -3014,7 +3014,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>376,
             'il_id'=>30,
             'ilce_ad'=>'Şemdinli'
@@ -3022,7 +3022,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>377,
             'il_id'=>30,
             'ilce_ad'=>'Yüksekova'
@@ -3030,7 +3030,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>378,
             'il_id'=>31,
             'ilce_ad'=>'Altınözü'
@@ -3038,7 +3038,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>379,
             'il_id'=>31,
             'ilce_ad'=>'Antakya'
@@ -3046,7 +3046,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>380,
             'il_id'=>31,
             'ilce_ad'=>'Belen'
@@ -3054,7 +3054,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>381,
             'il_id'=>31,
             'ilce_ad'=>'Dörtyol'
@@ -3062,7 +3062,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>382,
             'il_id'=>31,
             'ilce_ad'=>'Erzin'
@@ -3070,7 +3070,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>383,
             'il_id'=>31,
             'ilce_ad'=>'Hassa'
@@ -3078,7 +3078,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>384,
             'il_id'=>31,
             'ilce_ad'=>'İskenderun'
@@ -3086,7 +3086,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>385,
             'il_id'=>31,
             'ilce_ad'=>'Kırıkhan'
@@ -3094,7 +3094,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>386,
             'il_id'=>31,
             'ilce_ad'=>'Kumlu'
@@ -3102,7 +3102,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>387,
             'il_id'=>31,
             'ilce_ad'=>'Reyhanlı'
@@ -3110,7 +3110,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>388,
             'il_id'=>31,
             'ilce_ad'=>'Samandağ'
@@ -3118,7 +3118,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>389,
             'il_id'=>31,
             'ilce_ad'=>'Yayladağı'
@@ -3126,7 +3126,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>390,
             'il_id'=>32,
             'ilce_ad'=>'Aksu'
@@ -3134,7 +3134,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>391,
             'il_id'=>32,
             'ilce_ad'=>'Atabey'
@@ -3142,7 +3142,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>392,
             'il_id'=>32,
             'ilce_ad'=>'Eğridir(Eğirdir)'
@@ -3150,7 +3150,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>393,
             'il_id'=>32,
             'ilce_ad'=>'Gelendost'
@@ -3158,7 +3158,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>394,
             'il_id'=>32,
             'ilce_ad'=>'Gönen'
@@ -3166,7 +3166,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>395,
             'il_id'=>32,
             'ilce_ad'=>'ISPARTA'
@@ -3174,7 +3174,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>396,
             'il_id'=>32,
             'ilce_ad'=>'Keçiborlu'
@@ -3182,7 +3182,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>397,
             'il_id'=>32,
             'ilce_ad'=>'Senirkent'
@@ -3190,7 +3190,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>398,
             'il_id'=>32,
             'ilce_ad'=>'Sütçüler'
@@ -3198,7 +3198,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>399,
             'il_id'=>32,
             'ilce_ad'=>'Şarkikaraağaç'
@@ -3206,7 +3206,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>400,
             'il_id'=>32,
             'ilce_ad'=>'Uluborlu'
@@ -3214,7 +3214,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>401,
             'il_id'=>32,
             'ilce_ad'=>'Yalvaç'
@@ -3222,7 +3222,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>402,
             'il_id'=>32,
             'ilce_ad'=>'Yenişarbademli'
@@ -3230,7 +3230,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>403,
             'il_id'=>33,
             'ilce_ad'=>'AKDENİZ'
@@ -3238,7 +3238,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>404,
             'il_id'=>33,
             'ilce_ad'=>'Anamur'
@@ -3246,7 +3246,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>405,
             'il_id'=>33,
             'ilce_ad'=>'Aydıncık'
@@ -3254,7 +3254,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>406,
             'il_id'=>33,
             'ilce_ad'=>'Bozyazı'
@@ -3262,7 +3262,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>407,
             'il_id'=>33,
             'ilce_ad'=>'Çamlıyayla'
@@ -3270,7 +3270,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>408,
             'il_id'=>33,
             'ilce_ad'=>'ERDEMLİ'
@@ -3278,7 +3278,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>409,
             'il_id'=>33,
             'ilce_ad'=>'Gülnar (Gülpınar)'
@@ -3286,7 +3286,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>410,
             'il_id'=>33,
             'ilce_ad'=>'Mezitli'
@@ -3294,7 +3294,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>411,
             'il_id'=>33,
             'ilce_ad'=>'Mut'
@@ -3302,7 +3302,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>412,
             'il_id'=>33,
             'ilce_ad'=>'Silifke'
@@ -3310,7 +3310,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>413,
             'il_id'=>33,
             'ilce_ad'=>'Tarsus'
@@ -3318,7 +3318,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>414,
             'il_id'=>33,
             'ilce_ad'=>'TOROSLAR'
@@ -3326,7 +3326,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>415,
             'il_id'=>33,
             'ilce_ad'=>'Yenişehir'
@@ -3334,7 +3334,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>416,
             'il_id'=>34,
             'ilce_ad'=>'Adalar'
@@ -3342,7 +3342,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>417,
             'il_id'=>34,
             'ilce_ad'=>'Arnavutköy'
@@ -3350,7 +3350,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>418,
             'il_id'=>34,
             'ilce_ad'=>'Ataşehir'
@@ -3358,7 +3358,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>419,
             'il_id'=>34,
             'ilce_ad'=>'AVCILAR'
@@ -3366,7 +3366,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>420,
             'il_id'=>34,
             'ilce_ad'=>'BAĞCILAR'
@@ -3374,7 +3374,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>421,
             'il_id'=>34,
             'ilce_ad'=>'BAHÇELİEVLER'
@@ -3382,7 +3382,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>422,
             'il_id'=>34,
             'ilce_ad'=>'Bakırköy'
@@ -3390,7 +3390,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>423,
             'il_id'=>34,
             'ilce_ad'=>'Başakşehir'
@@ -3398,7 +3398,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>424,
             'il_id'=>34,
             'ilce_ad'=>'BAYRAMPAŞA'
@@ -3406,7 +3406,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>425,
             'il_id'=>34,
             'ilce_ad'=>'BEŞİKTAŞ'
@@ -3414,7 +3414,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>426,
             'il_id'=>34,
             'ilce_ad'=>'Beykoz'
@@ -3422,7 +3422,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>427,
             'il_id'=>34,
             'ilce_ad'=>'BEYLİKDÜZÜ'
@@ -3430,7 +3430,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>428,
             'il_id'=>34,
             'ilce_ad'=>'BEYOĞLU'
@@ -3438,7 +3438,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>429,
             'il_id'=>34,
             'ilce_ad'=>'BÜYÜKÇEKMECE'
@@ -3446,7 +3446,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>430,
             'il_id'=>34,
             'ilce_ad'=>'Çatalca'
@@ -3454,7 +3454,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>431,
             'il_id'=>34,
             'ilce_ad'=>'Çekmeköy'
@@ -3462,7 +3462,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>432,
             'il_id'=>34,
             'ilce_ad'=>'ESENLER'
@@ -3470,7 +3470,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>433,
             'il_id'=>34,
             'ilce_ad'=>'ESENYURT'
@@ -3478,7 +3478,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>434,
             'il_id'=>34,
             'ilce_ad'=>'EYÜP'
@@ -3486,7 +3486,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>435,
             'il_id'=>34,
             'ilce_ad'=>'FATİH'
@@ -3494,7 +3494,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>436,
             'il_id'=>34,
             'ilce_ad'=>'GAZİOSMANPAŞA'
@@ -3502,7 +3502,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>437,
             'il_id'=>34,
             'ilce_ad'=>'GÜNGÖREN'
@@ -3510,7 +3510,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>438,
             'il_id'=>34,
             'ilce_ad'=>'KADIKÖY'
@@ -3518,7 +3518,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>439,
             'il_id'=>34,
             'ilce_ad'=>'KAĞITHANE'
@@ -3526,7 +3526,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>440,
             'il_id'=>34,
             'ilce_ad'=>'KARTAL'
@@ -3534,7 +3534,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>441,
             'il_id'=>34,
             'ilce_ad'=>'KÜÇÜKÇEKMECE'
@@ -3542,7 +3542,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>442,
             'il_id'=>34,
             'ilce_ad'=>'MALTEPE'
@@ -3550,7 +3550,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>443,
             'il_id'=>34,
             'ilce_ad'=>'PENDİK'
@@ -3558,7 +3558,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>444,
             'il_id'=>34,
             'ilce_ad'=>'Sancaktepe'
@@ -3566,7 +3566,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>445,
             'il_id'=>34,
             'ilce_ad'=>'SARIYER'
@@ -3574,7 +3574,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>446,
             'il_id'=>34,
             'ilce_ad'=>'Silivri'
@@ -3582,7 +3582,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>447,
             'il_id'=>34,
             'ilce_ad'=>'SULTANBEYLİ'
@@ -3590,7 +3590,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>448,
             'il_id'=>34,
             'ilce_ad'=>'SULTANGAZİ'
@@ -3598,7 +3598,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>449,
             'il_id'=>34,
             'ilce_ad'=>'Şile'
@@ -3606,7 +3606,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>450,
             'il_id'=>34,
             'ilce_ad'=>'ŞİŞLİ'
@@ -3614,7 +3614,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>451,
             'il_id'=>34,
             'ilce_ad'=>'Tuzla'
@@ -3622,7 +3622,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>452,
             'il_id'=>34,
             'ilce_ad'=>'ÜMRANİYE'
@@ -3630,7 +3630,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>453,
             'il_id'=>34,
             'ilce_ad'=>'Üsküdar'
@@ -3638,7 +3638,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>454,
             'il_id'=>34,
             'ilce_ad'=>'Zeytinburnu'
@@ -3646,7 +3646,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>455,
             'il_id'=>35,
             'ilce_ad'=>'ALİAĞA'
@@ -3654,7 +3654,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>456,
             'il_id'=>35,
             'ilce_ad'=>'Balçova'
@@ -3662,7 +3662,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>457,
             'il_id'=>35,
             'ilce_ad'=>'Bayındır'
@@ -3670,7 +3670,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>458,
             'il_id'=>35,
             'ilce_ad'=>'BAYRAKLI'
@@ -3678,7 +3678,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>459,
             'il_id'=>35,
             'ilce_ad'=>'Bergama'
@@ -3686,7 +3686,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>460,
             'il_id'=>35,
             'ilce_ad'=>'Beydağ'
@@ -3694,7 +3694,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>461,
             'il_id'=>35,
             'ilce_ad'=>'BORNOVA'
@@ -3702,7 +3702,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>462,
             'il_id'=>35,
             'ilce_ad'=>'BUCA'
@@ -3710,7 +3710,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>463,
             'il_id'=>35,
             'ilce_ad'=>'Cumaovası(Menderes)'
@@ -3718,7 +3718,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>464,
             'il_id'=>35,
             'ilce_ad'=>'Çeşme'
@@ -3726,7 +3726,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>465,
             'il_id'=>35,
             'ilce_ad'=>'Çiğli'
@@ -3734,7 +3734,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>466,
             'il_id'=>35,
             'ilce_ad'=>'Dikili'
@@ -3742,7 +3742,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>467,
             'il_id'=>35,
             'ilce_ad'=>'Foça'
@@ -3750,7 +3750,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>468,
             'il_id'=>35,
             'ilce_ad'=>'Gaziemir'
@@ -3758,7 +3758,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>469,
             'il_id'=>35,
             'ilce_ad'=>'Güzelbahçe'
@@ -3766,7 +3766,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>470,
             'il_id'=>35,
             'ilce_ad'=>'Karabağlar'
@@ -3774,7 +3774,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>471,
             'il_id'=>35,
             'ilce_ad'=>'Karaburun'
@@ -3782,7 +3782,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>472,
             'il_id'=>35,
             'ilce_ad'=>'KARŞIYAKA'
@@ -3790,7 +3790,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>473,
             'il_id'=>35,
             'ilce_ad'=>'Kemalpaşa'
@@ -3798,7 +3798,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>474,
             'il_id'=>35,
             'ilce_ad'=>'Kınık'
@@ -3806,7 +3806,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>475,
             'il_id'=>35,
             'ilce_ad'=>'Kiraz'
@@ -3814,7 +3814,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>476,
             'il_id'=>35,
             'ilce_ad'=>'KONAK'
@@ -3822,7 +3822,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>477,
             'il_id'=>35,
             'ilce_ad'=>'Menemen'
@@ -3830,7 +3830,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>478,
             'il_id'=>35,
             'ilce_ad'=>'Narlıdere'
@@ -3838,7 +3838,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>479,
             'il_id'=>35,
             'ilce_ad'=>'Ödemiş'
@@ -3846,7 +3846,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>480,
             'il_id'=>35,
             'ilce_ad'=>'Seferihisar'
@@ -3854,7 +3854,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>481,
             'il_id'=>35,
             'ilce_ad'=>'Selçuk'
@@ -3862,7 +3862,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>482,
             'il_id'=>35,
             'ilce_ad'=>'Tire'
@@ -3870,7 +3870,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>483,
             'il_id'=>35,
             'ilce_ad'=>'Torbalı'
@@ -3878,7 +3878,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>484,
             'il_id'=>35,
             'ilce_ad'=>'Urla'
@@ -3886,7 +3886,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>485,
             'il_id'=>36,
             'ilce_ad'=>'Akyaka'
@@ -3894,7 +3894,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>486,
             'il_id'=>36,
             'ilce_ad'=>'Arpaçay'
@@ -3902,7 +3902,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>487,
             'il_id'=>36,
             'ilce_ad'=>'Digor'
@@ -3910,7 +3910,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>488,
             'il_id'=>36,
             'ilce_ad'=>'Kağızman'
@@ -3918,7 +3918,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>489,
             'il_id'=>36,
             'ilce_ad'=>'Kars'
@@ -3926,7 +3926,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>490,
             'il_id'=>36,
             'ilce_ad'=>'Sarıkamış'
@@ -3934,7 +3934,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>491,
             'il_id'=>36,
             'ilce_ad'=>'Selim'
@@ -3942,7 +3942,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>492,
             'il_id'=>36,
             'ilce_ad'=>'Susuz'
@@ -3950,7 +3950,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>493,
             'il_id'=>37,
             'ilce_ad'=>'Abana'
@@ -3958,7 +3958,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>494,
             'il_id'=>37,
             'ilce_ad'=>'Ağlı'
@@ -3966,7 +3966,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>495,
             'il_id'=>37,
             'ilce_ad'=>'Araç'
@@ -3974,7 +3974,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>496,
             'il_id'=>37,
             'ilce_ad'=>'Azdavay'
@@ -3982,7 +3982,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>497,
             'il_id'=>37,
             'ilce_ad'=>'Bozkurt'
@@ -3990,7 +3990,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>498,
             'il_id'=>37,
             'ilce_ad'=>'Cide'
@@ -3998,7 +3998,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>499,
             'il_id'=>37,
             'ilce_ad'=>'Çatalzeytin'
@@ -4006,7 +4006,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>500,
             'il_id'=>37,
             'ilce_ad'=>'Daday'
@@ -4014,7 +4014,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>501,
             'il_id'=>37,
             'ilce_ad'=>'Devrekani'
@@ -4022,7 +4022,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>502,
             'il_id'=>37,
             'ilce_ad'=>'Doğanyurt'
@@ -4030,7 +4030,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>503,
             'il_id'=>37,
             'ilce_ad'=>'Hanönü(Gökçeağaç)'
@@ -4038,7 +4038,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>504,
             'il_id'=>37,
             'ilce_ad'=>'İhsangazi'
@@ -4046,7 +4046,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>505,
             'il_id'=>37,
             'ilce_ad'=>'İnebolu'
@@ -4054,7 +4054,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>506,
             'il_id'=>37,
             'ilce_ad'=>'Kastamonu'
@@ -4062,7 +4062,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>507,
             'il_id'=>37,
             'ilce_ad'=>'Küre'
@@ -4070,7 +4070,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>508,
             'il_id'=>37,
             'ilce_ad'=>'Pınarbaşı'
@@ -4078,7 +4078,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>509,
             'il_id'=>37,
             'ilce_ad'=>'Seydiler'
@@ -4086,7 +4086,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>510,
             'il_id'=>37,
             'ilce_ad'=>'Şenpazar'
@@ -4094,7 +4094,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>511,
             'il_id'=>37,
             'ilce_ad'=>'Taşköprü'
@@ -4102,7 +4102,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>512,
             'il_id'=>37,
             'ilce_ad'=>'Tosya'
@@ -4110,7 +4110,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>513,
             'il_id'=>38,
             'ilce_ad'=>'Akkışla'
@@ -4118,7 +4118,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>514,
             'il_id'=>38,
             'ilce_ad'=>'Bünyan'
@@ -4126,7 +4126,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>515,
             'il_id'=>38,
             'ilce_ad'=>'Develi'
@@ -4134,7 +4134,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>516,
             'il_id'=>38,
             'ilce_ad'=>'Felahiye'
@@ -4142,7 +4142,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>517,
             'il_id'=>38,
             'ilce_ad'=>'Hacılar'
@@ -4150,7 +4150,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>518,
             'il_id'=>38,
             'ilce_ad'=>'İncesu'
@@ -4158,7 +4158,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>519,
             'il_id'=>38,
             'ilce_ad'=>'Kocasinan'
@@ -4166,7 +4166,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>520,
             'il_id'=>38,
             'ilce_ad'=>'MELİKGAZİ'
@@ -4174,7 +4174,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>521,
             'il_id'=>38,
             'ilce_ad'=>'Özvatan(Çukur)'
@@ -4182,7 +4182,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>522,
             'il_id'=>38,
             'ilce_ad'=>'Pınarbaşı'
@@ -4190,7 +4190,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>523,
             'il_id'=>38,
             'ilce_ad'=>'Sarıoğlan'
@@ -4198,7 +4198,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>524,
             'il_id'=>38,
             'ilce_ad'=>'Sarız'
@@ -4206,7 +4206,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>525,
             'il_id'=>38,
             'ilce_ad'=>'Talas'
@@ -4214,7 +4214,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>526,
             'il_id'=>38,
             'ilce_ad'=>'Tomarza'
@@ -4222,7 +4222,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>527,
             'il_id'=>38,
             'ilce_ad'=>'Yahyalı'
@@ -4230,7 +4230,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>528,
             'il_id'=>38,
             'ilce_ad'=>'Yeşilhisar'
@@ -4238,7 +4238,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>529,
             'il_id'=>39,
             'ilce_ad'=>'Babaeski'
@@ -4246,7 +4246,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>530,
             'il_id'=>39,
             'ilce_ad'=>'Demirköy'
@@ -4254,7 +4254,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>531,
             'il_id'=>39,
             'ilce_ad'=>'Kırklareli'
@@ -4262,7 +4262,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>532,
             'il_id'=>39,
             'ilce_ad'=>'Kofçaz'
@@ -4270,7 +4270,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>533,
             'il_id'=>39,
             'ilce_ad'=>'Lüleburgaz'
@@ -4278,7 +4278,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>534,
             'il_id'=>39,
             'ilce_ad'=>'Pehlivanköy'
@@ -4286,7 +4286,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>535,
             'il_id'=>39,
             'ilce_ad'=>'Pınarhisar'
@@ -4294,7 +4294,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>536,
             'il_id'=>39,
             'ilce_ad'=>'Vize'
@@ -4302,7 +4302,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>537,
             'il_id'=>40,
             'ilce_ad'=>'Akçakent'
@@ -4310,7 +4310,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>538,
             'il_id'=>40,
             'ilce_ad'=>'Akpınar'
@@ -4318,7 +4318,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>539,
             'il_id'=>40,
             'ilce_ad'=>'Boztepe'
@@ -4326,7 +4326,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>540,
             'il_id'=>40,
             'ilce_ad'=>'Çiçekdağı'
@@ -4334,7 +4334,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>541,
             'il_id'=>40,
             'ilce_ad'=>'Kaman'
@@ -4342,7 +4342,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>542,
             'il_id'=>40,
             'ilce_ad'=>'KIRŞEHİR'
@@ -4350,7 +4350,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>543,
             'il_id'=>40,
             'ilce_ad'=>'Mucur'
@@ -4358,7 +4358,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>544,
             'il_id'=>41,
             'ilce_ad'=>'Başiskele'
@@ -4366,7 +4366,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>545,
             'il_id'=>41,
             'ilce_ad'=>'Çayırova'
@@ -4374,7 +4374,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>546,
             'il_id'=>41,
             'ilce_ad'=>'Darıca'
@@ -4382,7 +4382,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>547,
             'il_id'=>41,
             'ilce_ad'=>'Derince'
@@ -4390,7 +4390,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>548,
             'il_id'=>41,
             'ilce_ad'=>'Dilovası'
@@ -4398,7 +4398,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>549,
             'il_id'=>41,
             'ilce_ad'=>'Gebze'
@@ -4406,7 +4406,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>550,
             'il_id'=>41,
             'ilce_ad'=>'Gölcük'
@@ -4414,7 +4414,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>551,
             'il_id'=>41,
             'ilce_ad'=>'İzmit'
@@ -4422,7 +4422,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>552,
             'il_id'=>41,
             'ilce_ad'=>'Kandıra'
@@ -4430,7 +4430,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>553,
             'il_id'=>41,
             'ilce_ad'=>'Karamürsel'
@@ -4438,7 +4438,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>554,
             'il_id'=>41,
             'ilce_ad'=>'Kartepe'
@@ -4446,7 +4446,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>555,
             'il_id'=>41,
             'ilce_ad'=>'Tütünçiftlik'
@@ -4454,7 +4454,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>556,
             'il_id'=>42,
             'ilce_ad'=>'Ahırlı'
@@ -4462,7 +4462,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>557,
             'il_id'=>42,
             'ilce_ad'=>'Akören'
@@ -4470,7 +4470,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>558,
             'il_id'=>42,
             'ilce_ad'=>'Akşehir'
@@ -4478,7 +4478,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>559,
             'il_id'=>42,
             'ilce_ad'=>'Altınekin'
@@ -4486,7 +4486,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>560,
             'il_id'=>42,
             'ilce_ad'=>'Beyşehir'
@@ -4494,7 +4494,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>561,
             'il_id'=>42,
             'ilce_ad'=>'Bozkır'
@@ -4502,7 +4502,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>562,
             'il_id'=>42,
             'ilce_ad'=>'Cihanbeyli'
@@ -4510,7 +4510,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>563,
             'il_id'=>42,
             'ilce_ad'=>'Çeltik'
@@ -4518,7 +4518,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>564,
             'il_id'=>42,
             'ilce_ad'=>'Çumra'
@@ -4526,7 +4526,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>565,
             'il_id'=>42,
             'ilce_ad'=>'Derbent'
@@ -4534,7 +4534,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>566,
             'il_id'=>42,
             'ilce_ad'=>'Derebucak'
@@ -4542,7 +4542,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>567,
             'il_id'=>42,
             'ilce_ad'=>'Doğanhisar'
@@ -4550,7 +4550,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>568,
             'il_id'=>42,
             'ilce_ad'=>'Emirgazi'
@@ -4558,7 +4558,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>569,
             'il_id'=>42,
             'ilce_ad'=>'EREĞLİ'
@@ -4566,7 +4566,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>570,
             'il_id'=>42,
             'ilce_ad'=>'Güneysınır'
@@ -4574,7 +4574,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>571,
             'il_id'=>42,
             'ilce_ad'=>'Hadim'
@@ -4582,7 +4582,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>572,
             'il_id'=>42,
             'ilce_ad'=>'Halkapınar'
@@ -4590,7 +4590,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>573,
             'il_id'=>42,
             'ilce_ad'=>'Hüyük'
@@ -4598,7 +4598,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>574,
             'il_id'=>42,
             'ilce_ad'=>'Ilgın'
@@ -4606,7 +4606,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>575,
             'il_id'=>42,
             'ilce_ad'=>'Kadınhanı'
@@ -4614,7 +4614,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>576,
             'il_id'=>42,
             'ilce_ad'=>'Karapınar'
@@ -4622,7 +4622,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>577,
             'il_id'=>42,
             'ilce_ad'=>'KARATAY'
@@ -4630,7 +4630,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>578,
             'il_id'=>42,
             'ilce_ad'=>'Kulu'
@@ -4638,7 +4638,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>579,
             'il_id'=>42,
             'ilce_ad'=>'Meram'
@@ -4646,7 +4646,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>580,
             'il_id'=>42,
             'ilce_ad'=>'Sarayönü'
@@ -4654,7 +4654,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>581,
             'il_id'=>42,
             'ilce_ad'=>'SELÇUKLU'
@@ -4662,7 +4662,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>582,
             'il_id'=>42,
             'ilce_ad'=>'Seydişehir'
@@ -4670,7 +4670,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>583,
             'il_id'=>42,
             'ilce_ad'=>'Taşkent'
@@ -4678,7 +4678,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>584,
             'il_id'=>42,
             'ilce_ad'=>'Tuzlukçu'
@@ -4686,7 +4686,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>585,
             'il_id'=>42,
             'ilce_ad'=>'Yalıhüyük'
@@ -4694,7 +4694,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>586,
             'il_id'=>42,
             'ilce_ad'=>'Yunak'
@@ -4702,7 +4702,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>587,
             'il_id'=>43,
             'ilce_ad'=>'Altıntaş'
@@ -4710,7 +4710,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>588,
             'il_id'=>43,
             'ilce_ad'=>'Aslanapa'
@@ -4718,7 +4718,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>589,
             'il_id'=>43,
             'ilce_ad'=>'Çavdarhisar'
@@ -4726,7 +4726,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>590,
             'il_id'=>43,
             'ilce_ad'=>'Domaniç'
@@ -4734,7 +4734,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>591,
             'il_id'=>43,
             'ilce_ad'=>'Dumlupınar'
@@ -4742,7 +4742,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>592,
             'il_id'=>43,
             'ilce_ad'=>'Emet'
@@ -4750,7 +4750,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>593,
             'il_id'=>43,
             'ilce_ad'=>'Gediz'
@@ -4758,7 +4758,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>594,
             'il_id'=>43,
             'ilce_ad'=>'Hisarcık'
@@ -4766,7 +4766,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>595,
             'il_id'=>43,
             'ilce_ad'=>'KÜTAHYA'
@@ -4774,7 +4774,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>596,
             'il_id'=>43,
             'ilce_ad'=>'Pazarlar'
@@ -4782,7 +4782,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>597,
             'il_id'=>43,
             'ilce_ad'=>'Simav'
@@ -4790,7 +4790,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>598,
             'il_id'=>43,
             'ilce_ad'=>'Şaphane'
@@ -4798,7 +4798,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>599,
             'il_id'=>43,
             'ilce_ad'=>'Tavşanlı'
@@ -4806,7 +4806,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>600,
             'il_id'=>43,
             'ilce_ad'=>'Tunçbilek'
@@ -4814,7 +4814,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>601,
             'il_id'=>44,
             'ilce_ad'=>'Akçadağ'
@@ -4822,7 +4822,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>602,
             'il_id'=>44,
             'ilce_ad'=>'Arapkir'
@@ -4830,7 +4830,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>603,
             'il_id'=>44,
             'ilce_ad'=>'Arguvan'
@@ -4838,7 +4838,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>604,
             'il_id'=>44,
             'ilce_ad'=>'Battalgazi'
@@ -4846,7 +4846,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>605,
             'il_id'=>44,
             'ilce_ad'=>'Darende'
@@ -4854,7 +4854,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>606,
             'il_id'=>44,
             'ilce_ad'=>'Doğanşehir'
@@ -4862,7 +4862,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>607,
             'il_id'=>44,
             'ilce_ad'=>'Doğanyol'
@@ -4870,7 +4870,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>608,
             'il_id'=>44,
             'ilce_ad'=>'Hekimhan'
@@ -4878,7 +4878,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>609,
             'il_id'=>44,
             'ilce_ad'=>'Kale'
@@ -4886,7 +4886,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>610,
             'il_id'=>44,
             'ilce_ad'=>'Kuluncak'
@@ -4894,7 +4894,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>611,
             'il_id'=>44,
             'ilce_ad'=>'Malatya'
@@ -4902,7 +4902,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>612,
             'il_id'=>44,
             'ilce_ad'=>'Pötürge'
@@ -4910,7 +4910,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>613,
             'il_id'=>44,
             'ilce_ad'=>'Yazıhan'
@@ -4918,7 +4918,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>614,
             'il_id'=>44,
             'ilce_ad'=>'YEŞİLYURT'
@@ -4926,7 +4926,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>615,
             'il_id'=>45,
             'ilce_ad'=>'Ahmetli'
@@ -4934,7 +4934,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>616,
             'il_id'=>45,
             'ilce_ad'=>'Akhisar'
@@ -4942,7 +4942,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>617,
             'il_id'=>45,
             'ilce_ad'=>'Alaşehir'
@@ -4950,7 +4950,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>618,
             'il_id'=>45,
             'ilce_ad'=>'Demirci'
@@ -4958,7 +4958,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>619,
             'il_id'=>45,
             'ilce_ad'=>'Gölmarmara'
@@ -4966,7 +4966,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>620,
             'il_id'=>45,
             'ilce_ad'=>'Gördes'
@@ -4974,7 +4974,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>621,
             'il_id'=>45,
             'ilce_ad'=>'Kırkağaç'
@@ -4982,7 +4982,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>622,
             'il_id'=>45,
             'ilce_ad'=>'Köprübaşı'
@@ -4990,7 +4990,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>623,
             'il_id'=>45,
             'ilce_ad'=>'Kula'
@@ -4998,7 +4998,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>624,
             'il_id'=>45,
             'ilce_ad'=>'Manisa'
@@ -5006,7 +5006,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>625,
             'il_id'=>45,
             'ilce_ad'=>'Salihli'
@@ -5014,7 +5014,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>626,
             'il_id'=>45,
             'ilce_ad'=>'Sarıgöl'
@@ -5022,7 +5022,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>627,
             'il_id'=>45,
             'ilce_ad'=>'Saruhanlı'
@@ -5030,7 +5030,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>628,
             'il_id'=>45,
             'ilce_ad'=>'Selendi'
@@ -5038,7 +5038,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>629,
             'il_id'=>45,
             'ilce_ad'=>'Soma'
@@ -5046,7 +5046,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>630,
             'il_id'=>45,
             'ilce_ad'=>'Turgutlu'
@@ -5054,7 +5054,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>631,
             'il_id'=>46,
             'ilce_ad'=>'Afşin'
@@ -5062,7 +5062,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>632,
             'il_id'=>46,
             'ilce_ad'=>'Andırın'
@@ -5070,7 +5070,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>633,
             'il_id'=>46,
             'ilce_ad'=>'Çağlayancerit'
@@ -5078,7 +5078,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>634,
             'il_id'=>46,
             'ilce_ad'=>'Ekinözü'
@@ -5086,7 +5086,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>635,
             'il_id'=>46,
             'ilce_ad'=>'Elbistan'
@@ -5094,7 +5094,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>636,
             'il_id'=>46,
             'ilce_ad'=>'Göksun'
@@ -5102,7 +5102,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>637,
             'il_id'=>46,
             'ilce_ad'=>'Kahramanmaraş'
@@ -5110,7 +5110,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>638,
             'il_id'=>46,
             'ilce_ad'=>'Nurhak'
@@ -5118,7 +5118,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>639,
             'il_id'=>46,
             'ilce_ad'=>'Pazarcık'
@@ -5126,7 +5126,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>640,
             'il_id'=>46,
             'ilce_ad'=>'Türkoğlu'
@@ -5134,7 +5134,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>641,
             'il_id'=>47,
             'ilce_ad'=>'Dargeçit'
@@ -5142,7 +5142,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>642,
             'il_id'=>47,
             'ilce_ad'=>'Derik'
@@ -5150,7 +5150,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>643,
             'il_id'=>47,
             'ilce_ad'=>'Kızıltepe'
@@ -5158,7 +5158,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>644,
             'il_id'=>47,
             'ilce_ad'=>'Mardin'
@@ -5166,7 +5166,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>645,
             'il_id'=>47,
             'ilce_ad'=>'Mazıdağı'
@@ -5174,7 +5174,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>646,
             'il_id'=>47,
             'ilce_ad'=>'Midyat(Estel)'
@@ -5182,7 +5182,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>647,
             'il_id'=>47,
             'ilce_ad'=>'Nusaybin'
@@ -5190,7 +5190,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>648,
             'il_id'=>47,
             'ilce_ad'=>'Ömerli'
@@ -5198,7 +5198,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>649,
             'il_id'=>47,
             'ilce_ad'=>'Savur'
@@ -5206,7 +5206,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>650,
             'il_id'=>47,
             'ilce_ad'=>'Yeşilli'
@@ -5214,7 +5214,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>651,
             'il_id'=>48,
             'ilce_ad'=>'Bodrum'
@@ -5222,7 +5222,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>652,
             'il_id'=>48,
             'ilce_ad'=>'Dalaman'
@@ -5230,7 +5230,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>653,
             'il_id'=>48,
             'ilce_ad'=>'Datça'
@@ -5238,7 +5238,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>654,
             'il_id'=>48,
             'ilce_ad'=>'Fethiye'
@@ -5246,7 +5246,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>655,
             'il_id'=>48,
             'ilce_ad'=>'Kavaklıdere'
@@ -5254,7 +5254,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>656,
             'il_id'=>48,
             'ilce_ad'=>'Köyceğiz'
@@ -5262,7 +5262,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>657,
             'il_id'=>48,
             'ilce_ad'=>'Marmaris'
@@ -5270,7 +5270,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>658,
             'il_id'=>48,
             'ilce_ad'=>'Milas'
@@ -5278,7 +5278,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>659,
             'il_id'=>48,
             'ilce_ad'=>'Muğla'
@@ -5286,7 +5286,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>660,
             'il_id'=>48,
             'ilce_ad'=>'Ortaca'
@@ -5294,7 +5294,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>661,
             'il_id'=>48,
             'ilce_ad'=>'Ula'
@@ -5302,7 +5302,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>662,
             'il_id'=>48,
             'ilce_ad'=>'Yatağan'
@@ -5310,7 +5310,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>663,
             'il_id'=>49,
             'ilce_ad'=>'Bulanık'
@@ -5318,7 +5318,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>664,
             'il_id'=>49,
             'ilce_ad'=>'Hasköy'
@@ -5326,7 +5326,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>665,
             'il_id'=>49,
             'ilce_ad'=>'Korkut'
@@ -5334,7 +5334,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>666,
             'il_id'=>49,
             'ilce_ad'=>'Malazgirt'
@@ -5342,7 +5342,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>667,
             'il_id'=>49,
             'ilce_ad'=>'Muş'
@@ -5350,7 +5350,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>668,
             'il_id'=>49,
             'ilce_ad'=>'Varto'
@@ -5358,7 +5358,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>669,
             'il_id'=>50,
             'ilce_ad'=>'Acıgöl'
@@ -5366,7 +5366,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>670,
             'il_id'=>50,
             'ilce_ad'=>'Avanos'
@@ -5374,7 +5374,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>671,
             'il_id'=>50,
             'ilce_ad'=>'Derinkuyu'
@@ -5382,7 +5382,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>672,
             'il_id'=>50,
             'ilce_ad'=>'Gülşehir'
@@ -5390,7 +5390,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>673,
             'il_id'=>50,
             'ilce_ad'=>'Hacıbektaş'
@@ -5398,7 +5398,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>674,
             'il_id'=>50,
             'ilce_ad'=>'Kozaklı'
@@ -5406,7 +5406,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>675,
             'il_id'=>50,
             'ilce_ad'=>'Nevşehir'
@@ -5414,7 +5414,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>676,
             'il_id'=>50,
             'ilce_ad'=>'Ürgüp'
@@ -5422,7 +5422,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>677,
             'il_id'=>51,
             'ilce_ad'=>'Altunhisar'
@@ -5430,7 +5430,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>678,
             'il_id'=>51,
             'ilce_ad'=>'Bor'
@@ -5438,7 +5438,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>679,
             'il_id'=>51,
             'ilce_ad'=>'Çamardı'
@@ -5446,7 +5446,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>680,
             'il_id'=>51,
             'ilce_ad'=>'Çiftlik(Özyurt)'
@@ -5454,7 +5454,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>681,
             'il_id'=>51,
             'ilce_ad'=>'Niğde'
@@ -5462,7 +5462,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>682,
             'il_id'=>51,
             'ilce_ad'=>'Ulukışla'
@@ -5470,7 +5470,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>683,
             'il_id'=>52,
             'ilce_ad'=>'Akkuş'
@@ -5478,7 +5478,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>684,
             'il_id'=>52,
             'ilce_ad'=>'Aybastı'
@@ -5486,7 +5486,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>685,
             'il_id'=>52,
             'ilce_ad'=>'Çamaş'
@@ -5494,7 +5494,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>686,
             'il_id'=>52,
             'ilce_ad'=>'Çatalpınar'
@@ -5502,7 +5502,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>687,
             'il_id'=>52,
             'ilce_ad'=>'Çaybaşı'
@@ -5510,7 +5510,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>688,
             'il_id'=>52,
             'ilce_ad'=>'Fatsa'
@@ -5518,7 +5518,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>689,
             'il_id'=>52,
             'ilce_ad'=>'Gölköy'
@@ -5526,7 +5526,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>690,
             'il_id'=>52,
             'ilce_ad'=>'Gülyalı'
@@ -5534,7 +5534,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>691,
             'il_id'=>52,
             'ilce_ad'=>'Gürgentepe'
@@ -5542,7 +5542,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>692,
             'il_id'=>52,
             'ilce_ad'=>'İkizce'
@@ -5550,7 +5550,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>693,
             'il_id'=>52,
             'ilce_ad'=>'Kabataş'
@@ -5558,7 +5558,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>694,
             'il_id'=>52,
             'ilce_ad'=>'Karadüz(Kabadüz)'
@@ -5566,7 +5566,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>695,
             'il_id'=>52,
             'ilce_ad'=>'Korgan'
@@ -5574,7 +5574,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>696,
             'il_id'=>52,
             'ilce_ad'=>'Kumru'
@@ -5582,7 +5582,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>697,
             'il_id'=>52,
             'ilce_ad'=>'Mesudiye'
@@ -5590,7 +5590,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>698,
             'il_id'=>52,
             'ilce_ad'=>'Ordu'
@@ -5598,7 +5598,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>699,
             'il_id'=>52,
             'ilce_ad'=>'Perşembe'
@@ -5606,7 +5606,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>700,
             'il_id'=>52,
             'ilce_ad'=>'Ulubey'
@@ -5614,7 +5614,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>701,
             'il_id'=>52,
             'ilce_ad'=>'ÜNYE'
@@ -5622,7 +5622,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>702,
             'il_id'=>53,
             'ilce_ad'=>'ARDEŞEN'
@@ -5630,7 +5630,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>703,
             'il_id'=>53,
             'ilce_ad'=>'Çamlıhemşin'
@@ -5638,7 +5638,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>704,
             'il_id'=>53,
             'ilce_ad'=>'Çayeli'
@@ -5646,7 +5646,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>705,
             'il_id'=>53,
             'ilce_ad'=>'Derepazarı'
@@ -5654,7 +5654,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>706,
             'il_id'=>53,
             'ilce_ad'=>'Fındıklı'
@@ -5662,7 +5662,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>707,
             'il_id'=>53,
             'ilce_ad'=>'Güneysu'
@@ -5670,7 +5670,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>708,
             'il_id'=>53,
             'ilce_ad'=>'Hemşin'
@@ -5678,7 +5678,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>709,
             'il_id'=>53,
             'ilce_ad'=>'İkizdere'
@@ -5686,7 +5686,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>710,
             'il_id'=>53,
             'ilce_ad'=>'İyidere'
@@ -5694,7 +5694,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>711,
             'il_id'=>53,
             'ilce_ad'=>'Kalkandere'
@@ -5702,7 +5702,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>712,
             'il_id'=>53,
             'ilce_ad'=>'Pazar'
@@ -5710,7 +5710,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>713,
             'il_id'=>53,
             'ilce_ad'=>'Rize'
@@ -5718,7 +5718,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>714,
             'il_id'=>54,
             'ilce_ad'=>'ADAPAZARI'
@@ -5726,7 +5726,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>715,
             'il_id'=>54,
             'ilce_ad'=>'Akyazı'
@@ -5734,7 +5734,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>716,
             'il_id'=>54,
             'ilce_ad'=>'Arifiye'
@@ -5742,7 +5742,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>717,
             'il_id'=>54,
             'ilce_ad'=>'Erenler'
@@ -5750,7 +5750,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>718,
             'il_id'=>54,
             'ilce_ad'=>'Ferizli'
@@ -5758,7 +5758,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>719,
             'il_id'=>54,
             'ilce_ad'=>'Geyve'
@@ -5766,7 +5766,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>720,
             'il_id'=>54,
             'ilce_ad'=>'Hendek'
@@ -5774,7 +5774,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>721,
             'il_id'=>54,
             'ilce_ad'=>'Karapürçek'
@@ -5782,7 +5782,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>722,
             'il_id'=>54,
             'ilce_ad'=>'Karasu'
@@ -5790,7 +5790,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>723,
             'il_id'=>54,
             'ilce_ad'=>'Kaynarca'
@@ -5798,7 +5798,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>724,
             'il_id'=>54,
             'ilce_ad'=>'Kocaali'
@@ -5806,7 +5806,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>725,
             'il_id'=>54,
             'ilce_ad'=>'Pamukova'
@@ -5814,7 +5814,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>726,
             'il_id'=>54,
             'ilce_ad'=>'Sapanca'
@@ -5822,7 +5822,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>727,
             'il_id'=>54,
             'ilce_ad'=>'Serdivan'
@@ -5830,7 +5830,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>728,
             'il_id'=>54,
             'ilce_ad'=>'Söğütlü'
@@ -5838,7 +5838,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>729,
             'il_id'=>54,
             'ilce_ad'=>'Taraklı'
@@ -5846,7 +5846,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>730,
             'il_id'=>55,
             'ilce_ad'=>'19 Mayıs(Ballıca)'
@@ -5854,7 +5854,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>731,
             'il_id'=>55,
             'ilce_ad'=>'Alaçam'
@@ -5862,7 +5862,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>732,
             'il_id'=>55,
             'ilce_ad'=>'Asarcık'
@@ -5870,7 +5870,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>733,
             'il_id'=>55,
             'ilce_ad'=>'ATAKUM'
@@ -5878,7 +5878,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>734,
             'il_id'=>55,
             'ilce_ad'=>'Ayvacık'
@@ -5886,7 +5886,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>735,
             'il_id'=>55,
             'ilce_ad'=>'Bafra'
@@ -5894,7 +5894,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>736,
             'il_id'=>55,
             'ilce_ad'=>'Canik'
@@ -5902,7 +5902,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>737,
             'il_id'=>55,
             'ilce_ad'=>'Çarşamba'
@@ -5910,7 +5910,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>738,
             'il_id'=>55,
             'ilce_ad'=>'Havza'
@@ -5918,7 +5918,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>739,
             'il_id'=>55,
             'ilce_ad'=>'İlkadım'
@@ -5926,7 +5926,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>740,
             'il_id'=>55,
             'ilce_ad'=>'Kavak'
@@ -5934,7 +5934,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>741,
             'il_id'=>55,
             'ilce_ad'=>'Ladik'
@@ -5942,7 +5942,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>742,
             'il_id'=>55,
             'ilce_ad'=>'Salıpazarı'
@@ -5950,7 +5950,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>743,
             'il_id'=>55,
             'ilce_ad'=>'Tekkeköy'
@@ -5958,7 +5958,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>744,
             'il_id'=>55,
             'ilce_ad'=>'Terme'
@@ -5966,7 +5966,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>745,
             'il_id'=>55,
             'ilce_ad'=>'Vezirköprü'
@@ -5974,7 +5974,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>746,
             'il_id'=>55,
             'ilce_ad'=>'Yakakent'
@@ -5982,7 +5982,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>747,
             'il_id'=>56,
             'ilce_ad'=>'Aydınlar'
@@ -5990,7 +5990,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>748,
             'il_id'=>56,
             'ilce_ad'=>'Baykan'
@@ -5998,7 +5998,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>749,
             'il_id'=>56,
             'ilce_ad'=>'Eruh'
@@ -6006,7 +6006,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>750,
             'il_id'=>56,
             'ilce_ad'=>'Kurtalan'
@@ -6014,7 +6014,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>751,
             'il_id'=>56,
             'ilce_ad'=>'Pervari'
@@ -6022,7 +6022,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>752,
             'il_id'=>56,
             'ilce_ad'=>'Siirt'
@@ -6030,7 +6030,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>753,
             'il_id'=>56,
             'ilce_ad'=>'Şirvan'
@@ -6038,7 +6038,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>754,
             'il_id'=>57,
             'ilce_ad'=>'Ayancık'
@@ -6046,7 +6046,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>755,
             'il_id'=>57,
             'ilce_ad'=>'Boyabat'
@@ -6054,7 +6054,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>756,
             'il_id'=>57,
             'ilce_ad'=>'Dikmen'
@@ -6062,7 +6062,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>757,
             'il_id'=>57,
             'ilce_ad'=>'Durağan'
@@ -6070,7 +6070,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>758,
             'il_id'=>57,
             'ilce_ad'=>'Erfelek'
@@ -6078,7 +6078,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>759,
             'il_id'=>57,
             'ilce_ad'=>'Gerze'
@@ -6086,7 +6086,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>760,
             'il_id'=>57,
             'ilce_ad'=>'Saraydüzü'
@@ -6094,7 +6094,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>761,
             'il_id'=>57,
             'ilce_ad'=>'SİNOP'
@@ -6102,7 +6102,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>762,
             'il_id'=>57,
             'ilce_ad'=>'Türkeli'
@@ -6110,7 +6110,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>763,
             'il_id'=>58,
             'ilce_ad'=>'Akıncılar'
@@ -6118,7 +6118,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>764,
             'il_id'=>58,
             'ilce_ad'=>'Altınyayla'
@@ -6126,7 +6126,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>765,
             'il_id'=>58,
             'ilce_ad'=>'Divriği'
@@ -6134,7 +6134,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>766,
             'il_id'=>58,
             'ilce_ad'=>'Doğanşar'
@@ -6142,7 +6142,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>767,
             'il_id'=>58,
             'ilce_ad'=>'Gemerek'
@@ -6150,7 +6150,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>768,
             'il_id'=>58,
             'ilce_ad'=>'Gölova'
@@ -6158,7 +6158,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>769,
             'il_id'=>58,
             'ilce_ad'=>'Gürün'
@@ -6166,7 +6166,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>770,
             'il_id'=>58,
             'ilce_ad'=>'Hafik'
@@ -6174,7 +6174,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>771,
             'il_id'=>58,
             'ilce_ad'=>'İmranlı'
@@ -6182,7 +6182,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>772,
             'il_id'=>58,
             'ilce_ad'=>'Kangal'
@@ -6190,7 +6190,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>773,
             'il_id'=>58,
             'ilce_ad'=>'Koyulhisar'
@@ -6198,7 +6198,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>774,
             'il_id'=>58,
             'ilce_ad'=>'Sivas'
@@ -6206,7 +6206,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>775,
             'il_id'=>58,
             'ilce_ad'=>'Suşehri'
@@ -6214,7 +6214,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>776,
             'il_id'=>58,
             'ilce_ad'=>'Şarkışla'
@@ -6222,7 +6222,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>777,
             'il_id'=>58,
             'ilce_ad'=>'Ulaş'
@@ -6230,7 +6230,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>778,
             'il_id'=>58,
             'ilce_ad'=>'Yıldızeli'
@@ -6238,7 +6238,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>779,
             'il_id'=>58,
             'ilce_ad'=>'Zara'
@@ -6246,7 +6246,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>780,
             'il_id'=>59,
             'ilce_ad'=>'Çerkezköy'
@@ -6254,7 +6254,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>781,
             'il_id'=>59,
             'ilce_ad'=>'Çorlu'
@@ -6262,7 +6262,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>782,
             'il_id'=>59,
             'ilce_ad'=>'Hayrabolu'
@@ -6270,7 +6270,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>783,
             'il_id'=>59,
             'ilce_ad'=>'Malkara'
@@ -6278,7 +6278,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>784,
             'il_id'=>59,
             'ilce_ad'=>'Marmaraereğlisi'
@@ -6286,7 +6286,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>785,
             'il_id'=>59,
             'ilce_ad'=>'Muratlı'
@@ -6294,7 +6294,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>786,
             'il_id'=>59,
             'ilce_ad'=>'Saray'
@@ -6302,7 +6302,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>787,
             'il_id'=>59,
             'ilce_ad'=>'Şarköy'
@@ -6310,7 +6310,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>788,
             'il_id'=>59,
             'ilce_ad'=>'Tekirdağ'
@@ -6318,7 +6318,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>789,
             'il_id'=>60,
             'ilce_ad'=>'Almus'
@@ -6326,7 +6326,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>790,
             'il_id'=>60,
             'ilce_ad'=>'Artova'
@@ -6334,7 +6334,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>791,
             'il_id'=>60,
             'ilce_ad'=>'Başçiftlik'
@@ -6342,7 +6342,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>792,
             'il_id'=>60,
             'ilce_ad'=>'ERBAA'
@@ -6350,7 +6350,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>793,
             'il_id'=>60,
             'ilce_ad'=>'Niksar'
@@ -6358,7 +6358,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>794,
             'il_id'=>60,
             'ilce_ad'=>'Pazar'
@@ -6366,7 +6366,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>795,
             'il_id'=>60,
             'ilce_ad'=>'Reşadiye'
@@ -6374,7 +6374,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>796,
             'il_id'=>60,
             'ilce_ad'=>'Sulusaray'
@@ -6382,7 +6382,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>797,
             'il_id'=>60,
             'ilce_ad'=>'Tokat'
@@ -6390,7 +6390,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>798,
             'il_id'=>60,
             'ilce_ad'=>'Turhal'
@@ -6398,7 +6398,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>799,
             'il_id'=>60,
             'ilce_ad'=>'Yeşilyurt'
@@ -6406,7 +6406,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>800,
             'il_id'=>60,
             'ilce_ad'=>'Zile'
@@ -6414,7 +6414,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>801,
             'il_id'=>61,
             'ilce_ad'=>'Akçaabat'
@@ -6422,7 +6422,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>802,
             'il_id'=>61,
             'ilce_ad'=>'Araklı'
@@ -6430,7 +6430,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>803,
             'il_id'=>61,
             'ilce_ad'=>'Arsin'
@@ -6438,7 +6438,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>804,
             'il_id'=>61,
             'ilce_ad'=>'Beşikdüzü'
@@ -6446,7 +6446,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>805,
             'il_id'=>61,
             'ilce_ad'=>'Çarşıbaşı'
@@ -6454,7 +6454,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>806,
             'il_id'=>61,
             'ilce_ad'=>'Çaykara'
@@ -6462,7 +6462,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>807,
             'il_id'=>61,
             'ilce_ad'=>'Dernekpazarı'
@@ -6470,7 +6470,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>808,
             'il_id'=>61,
             'ilce_ad'=>'Düzköy'
@@ -6478,7 +6478,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>809,
             'il_id'=>61,
             'ilce_ad'=>'Hayrat'
@@ -6486,7 +6486,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>810,
             'il_id'=>61,
             'ilce_ad'=>'Köprübaşı'
@@ -6494,7 +6494,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>811,
             'il_id'=>61,
             'ilce_ad'=>'Maçka'
@@ -6502,7 +6502,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>812,
             'il_id'=>61,
             'ilce_ad'=>'Of'
@@ -6510,7 +6510,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>813,
             'il_id'=>61,
             'ilce_ad'=>'Sürmene'
@@ -6518,7 +6518,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>814,
             'il_id'=>61,
             'ilce_ad'=>'Şalpazarı'
@@ -6526,7 +6526,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>815,
             'il_id'=>61,
             'ilce_ad'=>'Tonya'
@@ -6534,7 +6534,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>816,
             'il_id'=>61,
             'ilce_ad'=>'Trabzon'
@@ -6542,7 +6542,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>817,
             'il_id'=>61,
             'ilce_ad'=>'Vakfıkebir'
@@ -6550,7 +6550,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>818,
             'il_id'=>61,
             'ilce_ad'=>'Yomra'
@@ -6558,7 +6558,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>819,
             'il_id'=>62,
             'ilce_ad'=>'Çemişgezek'
@@ -6566,7 +6566,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>820,
             'il_id'=>62,
             'ilce_ad'=>'Hozat'
@@ -6574,7 +6574,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>821,
             'il_id'=>62,
             'ilce_ad'=>'Mazgirt'
@@ -6582,7 +6582,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>822,
             'il_id'=>62,
             'ilce_ad'=>'Nazımiye'
@@ -6590,7 +6590,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>823,
             'il_id'=>62,
             'ilce_ad'=>'Ovacık'
@@ -6598,7 +6598,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>824,
             'il_id'=>62,
             'ilce_ad'=>'Pertek'
@@ -6606,7 +6606,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>825,
             'il_id'=>62,
             'ilce_ad'=>'Pülümür'
@@ -6614,7 +6614,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>826,
             'il_id'=>62,
             'ilce_ad'=>'Tunceli'
@@ -6622,7 +6622,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>827,
             'il_id'=>63,
             'ilce_ad'=>'Akçakale'
@@ -6630,7 +6630,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>828,
             'il_id'=>63,
             'ilce_ad'=>'Birecik'
@@ -6638,7 +6638,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>829,
             'il_id'=>63,
             'ilce_ad'=>'Bozova'
@@ -6646,7 +6646,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>830,
             'il_id'=>63,
             'ilce_ad'=>'Ceylanpınar'
@@ -6654,7 +6654,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>831,
             'il_id'=>63,
             'ilce_ad'=>'Halfeti'
@@ -6662,7 +6662,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>832,
             'il_id'=>63,
             'ilce_ad'=>'Harran'
@@ -6670,7 +6670,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>833,
             'il_id'=>63,
             'ilce_ad'=>'Hilvan'
@@ -6678,7 +6678,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>834,
             'il_id'=>63,
             'ilce_ad'=>'SİVEREK'
@@ -6686,7 +6686,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>835,
             'il_id'=>63,
             'ilce_ad'=>'Suruç'
@@ -6694,7 +6694,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>836,
             'il_id'=>63,
             'ilce_ad'=>'Şanlıurfa'
@@ -6702,7 +6702,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>837,
             'il_id'=>63,
             'ilce_ad'=>'Viranşehir'
@@ -6710,7 +6710,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>838,
             'il_id'=>64,
             'ilce_ad'=>'Banaz'
@@ -6718,7 +6718,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>839,
             'il_id'=>64,
             'ilce_ad'=>'Eşme'
@@ -6726,7 +6726,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>840,
             'il_id'=>64,
             'ilce_ad'=>'Karahallı'
@@ -6734,7 +6734,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>841,
             'il_id'=>64,
             'ilce_ad'=>'Sivaslı'
@@ -6742,7 +6742,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>842,
             'il_id'=>64,
             'ilce_ad'=>'Ulubey'
@@ -6750,7 +6750,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>843,
             'il_id'=>64,
             'ilce_ad'=>'Uşak'
@@ -6758,7 +6758,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>844,
             'il_id'=>65,
             'ilce_ad'=>'Bahçesaray'
@@ -6766,7 +6766,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>845,
             'il_id'=>65,
             'ilce_ad'=>'Başkale'
@@ -6774,7 +6774,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>846,
             'il_id'=>65,
             'ilce_ad'=>'Çaldıran'
@@ -6782,7 +6782,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>847,
             'il_id'=>65,
             'ilce_ad'=>'Çatak'
@@ -6790,7 +6790,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>848,
             'il_id'=>65,
             'ilce_ad'=>'Edremit(Gümüşdere)'
@@ -6798,7 +6798,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>849,
             'il_id'=>65,
             'ilce_ad'=>'Erciş'
@@ -6806,7 +6806,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>850,
             'il_id'=>65,
             'ilce_ad'=>'Gevaş'
@@ -6814,7 +6814,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>851,
             'il_id'=>65,
             'ilce_ad'=>'Gürpınar'
@@ -6822,7 +6822,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>852,
             'il_id'=>65,
             'ilce_ad'=>'Muradiye'
@@ -6830,7 +6830,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>853,
             'il_id'=>65,
             'ilce_ad'=>'Özalp'
@@ -6838,7 +6838,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>854,
             'il_id'=>65,
             'ilce_ad'=>'Saray'
@@ -6846,7 +6846,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>855,
             'il_id'=>65,
             'ilce_ad'=>'Van'
@@ -6854,7 +6854,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>856,
             'il_id'=>66,
             'ilce_ad'=>'Akdağmadeni'
@@ -6862,7 +6862,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>857,
             'il_id'=>66,
             'ilce_ad'=>'Aydıncık'
@@ -6870,7 +6870,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>858,
             'il_id'=>66,
             'ilce_ad'=>'Boğazlıyan'
@@ -6878,7 +6878,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>859,
             'il_id'=>66,
             'ilce_ad'=>'Çandır'
@@ -6886,7 +6886,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>860,
             'il_id'=>66,
             'ilce_ad'=>'Çayıralan'
@@ -6894,7 +6894,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>861,
             'il_id'=>66,
             'ilce_ad'=>'Çekerek'
@@ -6902,7 +6902,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>862,
             'il_id'=>66,
             'ilce_ad'=>'Kadışehri'
@@ -6910,7 +6910,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>863,
             'il_id'=>66,
             'ilce_ad'=>'Saraykent'
@@ -6918,7 +6918,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>864,
             'il_id'=>66,
             'ilce_ad'=>'Sarıkaya'
@@ -6926,7 +6926,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>865,
             'il_id'=>66,
             'ilce_ad'=>'Sorgun'
@@ -6934,7 +6934,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>866,
             'il_id'=>66,
             'ilce_ad'=>'Şefaatli'
@@ -6942,7 +6942,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>867,
             'il_id'=>66,
             'ilce_ad'=>'Yenifakılı'
@@ -6950,7 +6950,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>868,
             'il_id'=>66,
             'ilce_ad'=>'Yerköy'
@@ -6958,7 +6958,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>869,
             'il_id'=>66,
             'ilce_ad'=>'Yozgat'
@@ -6966,7 +6966,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>870,
             'il_id'=>67,
             'ilce_ad'=>'ALAPLI'
@@ -6974,7 +6974,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>871,
             'il_id'=>67,
             'ilce_ad'=>'Çaycuma'
@@ -6982,7 +6982,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>872,
             'il_id'=>67,
             'ilce_ad'=>'Devrek'
@@ -6990,7 +6990,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>873,
             'il_id'=>67,
             'ilce_ad'=>'Gökçebey'
@@ -6998,7 +6998,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>874,
             'il_id'=>67,
             'ilce_ad'=>'KARADENİZEREĞLİ'
@@ -7006,7 +7006,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>875,
             'il_id'=>67,
             'ilce_ad'=>'Zonguldak'
@@ -7014,7 +7014,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>876,
             'il_id'=>68,
             'ilce_ad'=>'Ağaçören'
@@ -7022,7 +7022,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>877,
             'il_id'=>68,
             'ilce_ad'=>'Aksaray'
@@ -7030,7 +7030,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>878,
             'il_id'=>68,
             'ilce_ad'=>'Eskil'
@@ -7038,7 +7038,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>879,
             'il_id'=>68,
             'ilce_ad'=>'Gülağaç(Ağaçlı)'
@@ -7046,7 +7046,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>880,
             'il_id'=>68,
             'ilce_ad'=>'Güzelyurt'
@@ -7054,7 +7054,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>881,
             'il_id'=>68,
             'ilce_ad'=>'Ortaköy'
@@ -7062,7 +7062,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>882,
             'il_id'=>68,
             'ilce_ad'=>'Sarıyahşi'
@@ -7070,7 +7070,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>883,
             'il_id'=>69,
             'ilce_ad'=>'Aydıntepe'
@@ -7078,7 +7078,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>884,
             'il_id'=>69,
             'ilce_ad'=>'Bayburt'
@@ -7086,7 +7086,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>885,
             'il_id'=>69,
             'ilce_ad'=>'Demirözü'
@@ -7094,7 +7094,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>886,
             'il_id'=>70,
             'ilce_ad'=>'Ayrancı'
@@ -7102,7 +7102,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>887,
             'il_id'=>70,
             'ilce_ad'=>'Başyayla'
@@ -7110,7 +7110,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>888,
             'il_id'=>70,
             'ilce_ad'=>'Ermenek'
@@ -7118,7 +7118,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>889,
             'il_id'=>70,
             'ilce_ad'=>'Karaman'
@@ -7126,7 +7126,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>890,
             'il_id'=>70,
             'ilce_ad'=>'Kazımkarabekir'
@@ -7134,7 +7134,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>891,
             'il_id'=>70,
             'ilce_ad'=>'Sarıveliler'
@@ -7142,7 +7142,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>892,
             'il_id'=>71,
             'ilce_ad'=>'Bahşili'
@@ -7150,7 +7150,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>893,
             'il_id'=>71,
             'ilce_ad'=>'Balışeyh'
@@ -7158,7 +7158,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>894,
             'il_id'=>71,
             'ilce_ad'=>'Çelebi'
@@ -7166,7 +7166,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>895,
             'il_id'=>71,
             'ilce_ad'=>'Delice'
@@ -7174,7 +7174,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>896,
             'il_id'=>71,
             'ilce_ad'=>'Karakeçili'
@@ -7182,7 +7182,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>897,
             'il_id'=>71,
             'ilce_ad'=>'Keskin'
@@ -7190,7 +7190,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>898,
             'il_id'=>71,
             'ilce_ad'=>'Kırıkkale'
@@ -7198,7 +7198,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>899,
             'il_id'=>71,
             'ilce_ad'=>'Sulakyurt'
@@ -7206,7 +7206,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>900,
             'il_id'=>71,
             'ilce_ad'=>'Yahşihan'
@@ -7214,7 +7214,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>901,
             'il_id'=>72,
             'ilce_ad'=>'Batman'
@@ -7222,7 +7222,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>902,
             'il_id'=>72,
             'ilce_ad'=>'Beşiri'
@@ -7230,7 +7230,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>903,
             'il_id'=>72,
             'ilce_ad'=>'Gercüş'
@@ -7238,7 +7238,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>904,
             'il_id'=>72,
             'ilce_ad'=>'Hasankeyf'
@@ -7246,7 +7246,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>905,
             'il_id'=>72,
             'ilce_ad'=>'Kozluk'
@@ -7254,7 +7254,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>906,
             'il_id'=>72,
             'ilce_ad'=>'Sason'
@@ -7262,7 +7262,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>907,
             'il_id'=>73,
             'ilce_ad'=>'Beytüşşebap'
@@ -7270,7 +7270,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>908,
             'il_id'=>73,
             'ilce_ad'=>'Cizre'
@@ -7278,7 +7278,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>909,
             'il_id'=>73,
             'ilce_ad'=>'Güçlükonak'
@@ -7286,7 +7286,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>910,
             'il_id'=>73,
             'ilce_ad'=>'İdil'
@@ -7294,7 +7294,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>911,
             'il_id'=>73,
             'ilce_ad'=>'Silopi'
@@ -7302,7 +7302,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>912,
             'il_id'=>73,
             'ilce_ad'=>'Şırnak'
@@ -7310,7 +7310,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>913,
             'il_id'=>73,
             'ilce_ad'=>'Uludere'
@@ -7318,7 +7318,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>914,
             'il_id'=>74,
             'ilce_ad'=>'Amasra'
@@ -7326,7 +7326,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>915,
             'il_id'=>74,
             'ilce_ad'=>'Bartın'
@@ -7334,7 +7334,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>916,
             'il_id'=>74,
             'ilce_ad'=>'Kurucaşile'
@@ -7342,7 +7342,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>917,
             'il_id'=>74,
             'ilce_ad'=>'Ulus'
@@ -7350,7 +7350,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>918,
             'il_id'=>75,
             'ilce_ad'=>'Ardahan'
@@ -7358,7 +7358,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>919,
             'il_id'=>75,
             'ilce_ad'=>'Çıldır'
@@ -7366,7 +7366,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>920,
             'il_id'=>75,
             'ilce_ad'=>'Damal'
@@ -7374,7 +7374,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>921,
             'il_id'=>75,
             'ilce_ad'=>'Göle'
@@ -7382,7 +7382,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>922,
             'il_id'=>75,
             'ilce_ad'=>'Hanak'
@@ -7390,7 +7390,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>923,
             'il_id'=>75,
             'ilce_ad'=>'Posof'
@@ -7398,7 +7398,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>924,
             'il_id'=>76,
             'ilce_ad'=>'Aralık'
@@ -7406,7 +7406,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>925,
             'il_id'=>76,
             'ilce_ad'=>'Iğdır'
@@ -7414,7 +7414,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>926,
             'il_id'=>76,
             'ilce_ad'=>'Karakoyunlu'
@@ -7422,7 +7422,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>927,
             'il_id'=>76,
             'ilce_ad'=>'Tuzluca'
@@ -7430,7 +7430,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>928,
             'il_id'=>77,
             'ilce_ad'=>'Altınova'
@@ -7438,7 +7438,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>929,
             'il_id'=>77,
             'ilce_ad'=>'Armutlu'
@@ -7446,7 +7446,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>930,
             'il_id'=>77,
             'ilce_ad'=>'Çınarcık'
@@ -7454,7 +7454,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>931,
             'il_id'=>77,
             'ilce_ad'=>'Çiftlikköy'
@@ -7462,7 +7462,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>932,
             'il_id'=>77,
             'ilce_ad'=>'Termal'
@@ -7470,7 +7470,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>933,
             'il_id'=>77,
             'ilce_ad'=>'Yalova'
@@ -7478,7 +7478,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>934,
             'il_id'=>78,
             'ilce_ad'=>'Eflani'
@@ -7486,7 +7486,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>935,
             'il_id'=>78,
             'ilce_ad'=>'Eskipazar'
@@ -7494,7 +7494,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>936,
             'il_id'=>78,
             'ilce_ad'=>'Karabük'
@@ -7502,7 +7502,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>937,
             'il_id'=>78,
             'ilce_ad'=>'Ovacık'
@@ -7510,7 +7510,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>938,
             'il_id'=>78,
             'ilce_ad'=>'Safranbolu'
@@ -7518,7 +7518,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>939,
             'il_id'=>78,
             'ilce_ad'=>'Yenice'
@@ -7526,7 +7526,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>940,
             'il_id'=>79,
             'ilce_ad'=>'Elbeyli'
@@ -7534,7 +7534,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>941,
             'il_id'=>79,
             'ilce_ad'=>'Kilis'
@@ -7542,7 +7542,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>942,
             'il_id'=>79,
             'ilce_ad'=>'Musabeyli'
@@ -7550,7 +7550,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>943,
             'il_id'=>79,
             'ilce_ad'=>'Polateli'
@@ -7558,7 +7558,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>944,
             'il_id'=>80,
             'ilce_ad'=>'Bahçe'
@@ -7566,7 +7566,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>945,
             'il_id'=>80,
             'ilce_ad'=>'Düziçi'
@@ -7574,7 +7574,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>946,
             'il_id'=>80,
             'ilce_ad'=>'Hasanbeyli'
@@ -7582,7 +7582,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>947,
             'il_id'=>80,
             'ilce_ad'=>'Kadirli'
@@ -7590,7 +7590,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>948,
             'il_id'=>80,
             'ilce_ad'=>'Osmaniye'
@@ -7598,7 +7598,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>949,
             'il_id'=>80,
             'ilce_ad'=>'Sumbas'
@@ -7606,7 +7606,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>950,
             'il_id'=>80,
             'ilce_ad'=>'Toprakkale'
@@ -7614,7 +7614,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>951,
             'il_id'=>81,
             'ilce_ad'=>'AKÇAKOCA'
@@ -7622,7 +7622,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>952,
             'il_id'=>81,
             'ilce_ad'=>'Cumayeri'
@@ -7630,7 +7630,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>953,
             'il_id'=>81,
             'ilce_ad'=>'Çilimli'
@@ -7638,7 +7638,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>954,
             'il_id'=>81,
             'ilce_ad'=>'DÜZCE'
@@ -7646,7 +7646,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>955,
             'il_id'=>81,
             'ilce_ad'=>'Gölyaka'
@@ -7654,7 +7654,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>956,
             'il_id'=>81,
             'ilce_ad'=>'Gümüşova'
@@ -7662,7 +7662,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>957,
             'il_id'=>81,
             'ilce_ad'=>'Kaynaşlı'
@@ -7670,7 +7670,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>958,
             'il_id'=>81,
             'ilce_ad'=>'Yığılca'
@@ -7678,7 +7678,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>959,
             'il_id'=>34,
             'ilce_ad'=>'Beşiktaş'
@@ -7686,7 +7686,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>960,
             'il_id'=>10,
             'ilce_ad'=>'KARESİ'
@@ -7694,7 +7694,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>961,
             'il_id'=>10,
             'ilce_ad'=>'6 EYLÜL'
@@ -7702,7 +7702,7 @@ class ilceolustur extends Seeder
 
 
 
-        App\Models\firma\ilceler::create( [
+        App\Models\ilceler::create( [
             'id'=>962,
             'il_id'=>61,
             'ilce_ad'=>'ORTAHİSAR'
