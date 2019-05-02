@@ -5,19 +5,21 @@ Türkiye'de ki tüm illerin migrate, model ve seed dosyalarını bulabilirsiniz.
 Yapmanız gereken sadece gerekli dosyaları laravel'inize entegre etmeniz. Database klasörünün içerisinde migration dosyası ve seed dosyası bulunuyor. 
 Laravel dosyanıza gerekli dosyaları attıktan sonra
 
-php artisan migrate
+<b>php artisan migrate</b>
 
 komutu ile tablolarınızı veritabanınıza ekleyin.
 
 Daha sonra Laravel dosyanızda bulunan database\seeds içerisinde bulunan DatabaseSeeder.php klasörü içerisine,
-
-$this->call(ilolustur::class);
-$this->call(ilceolustur::class);
-$this->call(semtolustur::class);
-$this->call(mahalleolustur::class);
-
+<br>
+<b>
+$this->call(ilolustur::class); <br>
+$this->call(ilceolustur::class); <br>
+$this->call(semtolustur::class); <br>
+$this->call(mahalleolustur::class); <br>
+</b>
+<br>
 eklemeleri yapınız. Daha sonra
 
-php artisan db:seed
+<b>php artisan db:seed</b>
 
 komutu ile eğer model dosyasını doğru bir şekilde attıysanız tüm il, ilçe, semt ve mahalle verileri veritabanınıza eklenecektir.
